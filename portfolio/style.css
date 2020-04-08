@@ -104,3 +104,12 @@ img {
 		text-align: center;
 	}
 }
+
+@media (max-width: 800px){
+	.main-content{
+		grid-template-columns: 1fr;
+	}
+	.nav-item{
+		text-align: center;
+	}
+}
