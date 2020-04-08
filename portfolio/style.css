@@ -6,7 +6,7 @@ html, body{
 }
 
 .main-container{
-	margin: 25px 25px;
+	margin: 25px 15px;
 	display: grid;
 	grid-template-columns: 80px 1fr 5fr 80px;
 	grid-template-areas: 
