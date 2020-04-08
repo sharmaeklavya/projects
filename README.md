@@ -4,4 +4,4 @@
 ## I have acquired various programming skills over the years.
 
 ## my Projects:
-[Photography Portfolio](https://redirect.is/dr1eqr)
+- [Photography Portfolio](https://redirect.is/dr1eqr)
