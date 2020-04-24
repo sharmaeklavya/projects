@@ -7,37 +7,38 @@ body{
 
 #container{
 	display: grid;
-	grid-template-columns: 80px repeat(2, 1fr) 80px;
-	grid-template-rows: repeat(2, 300px);
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-template-rows: minmax(540px, auto);
+	grid-gap: 10px;
 	grid-template-areas: 
 		". textop textbottom   ."
 		". addcontent displaycontent .";
-  	align-items: center;
-  	height: 100vh;
 }
 
 #textop{
 	grid-area: textop;
+	order: 1;
 }
 
 #textbottom{
 	grid-area: textbottom;
+	order: 2;
 }
 
 #addcontent{
 	grid-area: addcontent;
+	order: 3;
 }
 
 #displaycontent{
 	grid-area: displaycontent;
+	order: 4;
 }
 
-
 .textbox{
-	margin: 10px;
-	padding: 10px;
-	height: 45vh;
-	align-self: flex-start;
+	margin: 50px;
+	padding: 15px;
+	border: 1px solid silver;
 }
 
 .header{
@@ -45,6 +46,7 @@ body{
 }
 
 input, select{
+	width: 220px;
 	padding: 15px;
 	border: none;
 	outline: none;
@@ -69,14 +71,14 @@ input, select{
 }
 
 #displaycontent, #addcontent{
-	margin: 10px;
+	margin: 50px;
 	padding: 10px;
 	font-size: 1.2rem;
 }
 
 @media (max-width: 800px){
 	#container{
-	display: grid;
-	grid-template-columns: 10px 1fr 10px;
-	grid-template-rows: repeat(4, 300px);
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
 }

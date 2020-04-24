@@ -13,9 +13,10 @@
 			<h1 class="header">Add records</h1>
 			<form>
 			<input type="text" name="artist" id="addsinger" placeholder="Name of the Artist" required>
-			<input type="text" name="album" id="album" placeholder="Name of the Album" required>
+			<input type="text" name="album" id="album" placeholder="Name of the Album" required><br/>
 			<input type="number" name="no_of_songs" id="no_of_songs" placeholder="Number of Songs" required>
 			<select name="released_year" id="released_year" required>
+				<option value="released_year" selected="true" disabled>Released Year</option>
 				<option value="2020">2020</option>
 				<option value="2019">2019</option>
 			    <option value="2018">2018</option>
@@ -132,8 +133,7 @@
 			    <option value="1907">1907</option>
 			    <option value="1906">1906</option>
 			    <option value="1905">1905</option>
-			</select>
-			
+			</select> <br/>			
 			<button type="button" id="addbutton">Add</button>
 			</form>
 		</div>
