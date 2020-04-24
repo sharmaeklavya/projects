@@ -11,28 +11,24 @@ body{
 	grid-template-rows: minmax(540px, auto);
 	grid-gap: 10px;
 	grid-template-areas: 
-		". textop textbottom   ."
-		". addcontent displaycontent .";
+		". textbottom textop    ."
+		". displaycontent addcontent  .";
 }
 
 #textop{
 	grid-area: textop;
-	order: 1;
 }
 
 #textbottom{
 	grid-area: textbottom;
-	order: 2;
 }
 
 #addcontent{
 	grid-area: addcontent;
-	order: 3;
 }
 
 #displaycontent{
 	grid-area: displaycontent;
-	order: 4;
 }
 
 .textbox{
