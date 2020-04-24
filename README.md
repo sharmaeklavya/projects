@@ -6,4 +6,4 @@
 
 ## my Projects:
 - [Photography Portfolio](https://redirect.is/dr1eqr)
-- [Music Records](shorturl.at/cjpEW)
+- [Music Records](http://tiny.cc/hhcpnz)
