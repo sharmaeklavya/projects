@@ -30,6 +30,9 @@ var record = [
 
 function findArtist (artist){
 	for (var i = 0; i < record.length; i++){
+		if (artist === ""){
+			return "Type in the name to get the result.";
+		}
 		if (record[i].singer.toLowerCase() === artist.toLowerCase())
 		{
 			return record[i];    

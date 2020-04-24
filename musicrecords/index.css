@@ -7,8 +7,7 @@ body{
 
 #container{
 	margin: 20px;
-	padding: 20px;
-	border: 1px solid silver;
+	padding: 10px;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	grid-gap: 10px;
@@ -34,9 +33,10 @@ body{
 }
 
 .textbox{
+	width: 40vw;
 	margin: 50px;
 	padding: 15px;
-	border-bottom: 1px solid silver;
+	border-top: 1px solid silver;
 	border-left: 1px solid silver;
 }
 
