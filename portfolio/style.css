@@ -26,7 +26,6 @@ span{
 	grid-area: navbar;
 	margin: 15px 0;
 	background: #373737; 
-
 }
 
 .nav-item{
@@ -42,7 +41,7 @@ span{
 	border-bottom: 1px solid silver; 
 	outline: none;
 	display: block;
-	padding: 10px 15px;
+	padding: 10px;
 }
 
 .nav-link i{
@@ -105,7 +104,7 @@ img {
 	}
 }
 
-@media (max-width: 900px){
+@media (max-width: 800px){
 	.main-content{
 		grid-template-columns: 1fr;
 	}
