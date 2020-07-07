@@ -7,3 +7,4 @@
 ## my Projects:
 - [Photography Portfolio](https://redirect.is/dr1eqr)
 - [Music Records](http://tiny.cc/hhcpnz)
+-[Active Preview Component](https://sharmaeklavya.github.io/projects/activePreview/)
