@@ -12,6 +12,7 @@ body {
 .article {
   height: 100vh;
   width: 100vw;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,16 +24,17 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(images/drawers.jpg);
-  border-radius: 2% 0 0 2%;
-  box-shadow: 8px 5px 18px 8px hsl(212, 23%, 69%);
+  border-radius: 10px 0 0 10px;
+  box-shadow: 0 8px 6px -6px hsl(212, 23%, 69%);
 }
 
 .article-text {
   width: 18rem;
+  height: 12.5rem;
   padding: 0.5rem 2rem 0.8rem 1.5rem;
   background-color: white;
-  border-radius: 0 2% 2% 0;
-  box-shadow: 2px 2px 15px 0 hsl(212, 23%, 69%);
+  border-radius: 0 10px 10px 0;
+  box-shadow: 0 8px 6px -6px hsl(212, 23%, 69%);
 }
 
 .article-text h1 {
@@ -95,10 +97,10 @@ body {
 
 .palette {
   width: 10rem;
-  height: 3.5rem;
-  position: absolute;
-  top: 21.5rem;
-  left: 57rem;
+  height: 3rem;
+  position: relative;
+  top: -7rem;
+  left: 11.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,6 +123,11 @@ body {
   background-color: hsl(217, 19%, 35%);
 }
 
+.iconsbtn a {
+  color: inherit;
+  cursor: pointer;
+}
+
 @media (max-width: 690px) {
   .article {
     flex-direction: column;
@@ -128,17 +135,16 @@ body {
   .article-img {
     width: 18.5rem;
     height: 12.4rem;
-    border-radius: 2% 2% 0 0;
-    box-shadow: none;
+    border-radius: 10px 10px 0 0;
   }
 
   .article-text {
     width: 15rem;
+    height: 16rem;
     padding: 0.5rem 2rem 0.8rem 1.5rem;
-    border-radius: 0 0 2% 2%;
+    border-radius: 0 0 10px 10px;
     padding: 1.8rem;
     padding-bottom: 0.5rem;
-    box-shadow: none;
   }
 
   .article-text h1 {
@@ -159,5 +165,29 @@ body {
 
   .author-details p {
     font-size: 10px;
+  }
+
+  .share {
+    z-index: 9999;
+    margin-bottom: 2px;
+  }
+
+  .sharetxt p {
+    font-size: 14px;
+  }
+
+  .iconsbtn {
+    font-size: 20px;
+  }
+
+  .palette {
+    width: 15.6rem;
+    height: 4rem;
+    justify-content: left;
+    position: relative;
+    top: -3.7rem;
+    left: -1.8rem;
+    padding: 0 1.5rem;
+    border-radius: 0 0 10px 10px;
   }
 }
