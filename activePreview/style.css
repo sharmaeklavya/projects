@@ -19,8 +19,8 @@ body {
 }
 
 .article-img {
-  width: 14.2rem;
-  height: 14rem;
+  width: 14rem;
+  height: 13.8rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(images/drawers.jpg);
