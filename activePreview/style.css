@@ -20,7 +20,7 @@ body {
 
 .article-img {
   width: 14.2rem;
-  height: 13.8rem;
+  height: 14rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(images/drawers.jpg);
@@ -100,7 +100,7 @@ body {
   height: 3rem;
   position: relative;
   top: -6.5rem;
-  left: 11.4rem;
+  left: 11.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -116,9 +116,15 @@ body {
   display: none !important;
 }
 
+.shareicons {
+  display: flex;
+  padding-left: 8px;
+}
+
 .iconsbtn {
   outline: none;
   border: none;
+  list-style: none;
   color: white;
   background-color: hsl(217, 19%, 35%);
 }
@@ -126,6 +132,7 @@ body {
 .iconsbtn a {
   color: inherit;
   cursor: pointer;
+  padding: 0 5px;
 }
 
 @media (max-width: 690px) {
