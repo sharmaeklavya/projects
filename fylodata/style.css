@@ -74,7 +74,7 @@ body {
 
 .capacity {
   margin: 0;
-  padding: 0 0.5rem;
+  padding: 0.2rem 0.5rem;
   font-size: 12px;
   font-weight: 600;
   color: hsl(243, 100%, 93%);
@@ -93,19 +93,21 @@ meter::-webkit-meter-bar {
   padding: 0.1rem;
 }
 
-meter::-moz-meter-bar {
-  background: hsl(229, 57%, 11%);
-  padding: 0.1rem;
-}
-
 meter::-webkit-meter-optimum-value {
   background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
   border-radius: 10px;
 }
 
+@-moz-document url-prefix() { 
+meter::-moz-meter-bar {
+  background: hsl(229, 57%, 11%);
+  padding: 0.1rem;
+  }
+
 meter::-moz-meter-optimum-value {
   background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
   border-radius: 10px;
+  }
 }
 
 .txtbox {
