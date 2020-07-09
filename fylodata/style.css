@@ -24,18 +24,9 @@ body {
   background-size: 100vw 52vh;
 }
 
-/* .component {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-} */
-
 .square {
   margin: 2rem 0.8rem;
-  padding: 1.2rem 8rem 0.5rem 1.2rem;
+  padding: 1.2rem 6rem 0.5rem 1.2rem;
   border-radius: 10px 95px 10px 10px;
   background-color: hsl(228, 56%, 26%);
 }
