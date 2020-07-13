@@ -9,3 +9,4 @@
 - [Music Records](http://tiny.cc/hhcpnz)
 - [Active Preview Component](https://sharmaeklavya.github.io/projects/activePreview/)
 - [Fylo Data Component](https://sharmaeklavya.github.io/projects/fylodata/)
+- [Testimonnial SLider](https://sharmaeklavya.github.io/projects/testimonials/)
