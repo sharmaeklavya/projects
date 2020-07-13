@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  box-sizing: border-box;
+  font-family: "inter", sans-serif;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.article {
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(530px, 52rem));
+  grid-template-rows: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgbox {
+  order: 2;
+  grid-column: 2;
+  width: 50rem;
+  margin: 1em 1em 1em 0;
+  position: relative;
+}
+
+.bg {
+  width: 51rem;
+  z-index: 1;
+}
+
+.bg img {
+  width: 100%;
+  padding: 1em 1em 1em 0;
+}
+
+.profile {
+  width: 41rem;
+  position: absolute;
+  top: 4.2em;
+  left: 2em;
+  z-index: 2;
+}
+
+.profile img {
+  width: 100%;
+  padding: 1em;
+  border-radius: 14px;
+}
+
+.direction {
+  width: 10rem;
+  margin: -8em 0 0 5.5em;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 1px 1px lightgray;
+  position: absolute;
+  z-index: 3;
+}
+
+.direction img {
+  padding: 1.5em 1.8em;
+}
+
+.txtbox {
+  order: 1;
+  grid-column: 1;
+  width: 60rem;
+  max-width: 600px;
+  font-size: 2.5em;
+  font-weight: 300;
+  margin: 1em -4em 1em 1em;
+  z-index: 4;
+}
+
+.pattern-quotes {
+  width: 8rem;
+  margin: 1em 1em 0 5.7em;
+}
+
+.pattern-quotes img {
+  width: 100%;
+}
+
+.quotes {
+  margin: -1.3em 0 0 1em;
+  padding: 0 0 0 1em;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+}
+
+.author {
+  font-size: 1.8rem;
+  margin-left: 1.8em;
+  padding: 1em;
+}
+
+.pattern-curve {
+  grid-row: 2;
+  width: 45rem;
+  margin-top: -5em;
+  margin-right: auto;
+}
+
+.pattern-curve img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1040px) {
+  .article {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+  }
+
+  .imgbox {
+    order: 1;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+  }
+
+  .txtbox {
+    order: 2;
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: center;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+  }
+
+  .pattern-quotes {
+    width: 8rem;
+    margin: 1em 1em 0 10.8em;
+  }
+
+  span {
+    display: block;
+  }
+
+  .pattern-curve {
+    order: 3;
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: -8em;
+    margin-left: 5em;
+  }
+}
