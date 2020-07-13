@@ -126,6 +126,8 @@ body {
 
 @media (max-width: 1040px) {
   .article {
+    width: 50vw;
+    height: 50vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
