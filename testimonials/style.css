@@ -28,7 +28,7 @@ body {
     "curve curve  . . . . . .";
 }
 
-.john {
+#john {
   display: none;
 }
 
@@ -117,112 +117,97 @@ body {
 .pattern-curve {
   grid-area: curve;
   width: 55rem;
+  position: fixed;
+  bottom: 0;
 }
 
 .pattern-curve img {
   width: 100%;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .article {
-    display: grid;
-    grid-template-columns: 20px repeat(2, minmax(80px, 1fr)) 20px;
-    grid-template-rows: auto;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    grid-template-areas:
-      ". img img ."
-      ". txt txt ."
-      "curve . . .";
-  }
-  .txtbox {
-    grid-area: txt;
-    width: 25rem;
-    margin: 8rem -13rem 2rem 2rem;
-    padding-bottom: 0;
-    justify-self: right;
-    z-index: 1;
-    overflow: hidden;
-  }
-
-  .pattern-quotes {
-    width: 13rem;
-    margin-bottom: -3.8rem;
-    margin-left: 13.2rem;
-  }
-
-  .pattern-quotes img {
-    width: 100%;
-  }
-
-  .quotes {
-    font-size: 3.5rem;
-    font-weight: 300;
-    line-height: 4.5rem;
-    letter-spacing: 0.4px;
-    margin: 0 0 1rem 1rem;
-    padding: 0 0 1rem 1rem;
-  }
-
-  .author {
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin: 1rem;
-    padding: 1rem;
   }
 
   .imgbox {
-    grid-area: img;
-    width: 55rem;
-    margin: 10rem 2rem 2rem 0;
+    order: 1;
+    width: auto;
+    margin: 0.5rem;
     padding: 1rem;
-    padding-left: 0;
-    position: relative;
-    overflow: hidden;
   }
 
   .bg {
-    width: 52rem;
-  }
-
-  .bg img {
-    width: 100%;
+    width: 15rem;
   }
 
   .profile {
-    width: 40rem;
+    width: 12rem;
     position: absolute;
-    top: 6rem;
-    left: 5.3rem;
-  }
-
-  .profile img {
-    width: 100%;
-    border-radius: 5px;
-    box-shadow: -2px 39px 50px -24px rgba(0, 0, 0, 0.28);
+    top: 2.3rem;
+    left: 1rem;
   }
 
   .direction {
-    width: 8rem;
+    width: 4.4rem;
     border-radius: 50px;
     background-color: #ffffff;
     position: relative;
-    top: -6rem;
-    left: 10rem;
-    box-shadow: 1px 16px 26px -4px rgba(0, 0, 0, 0.28);
+    top: -2rem;
+    left: 5rem;
   }
 
   .direction img {
-    width: 3.8rem;
-    padding: 1.2rem 1.5rem;
+    width: 2rem;
+    padding: 6px 8px;
+  }
+
+  .txtbox {
+    order: 2;
+    width: auto;
+    margin: 0.5rem;
+    margin-bottom: 5rem;
+    padding: 1rem;
+  }
+
+  .pattern-quotes {
+    width: 5rem;
+    margin-left: 7.7rem;
+    margin-bottom: -2.8rem;
+  }
+
+  .quotes {
+    width: 22rem;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.6rem;
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .author {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.6rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .author span {
+    display: block;
   }
 
   .pattern-curve {
-    grid-area: curve;
-    width: 55rem;
+    width: 25rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
   }
 
-  .pattern-curve img {
-    width: 100%;
+  #john {
+    display: none;
   }
 }
