@@ -118,6 +118,7 @@ body {
   grid-area: curve;
   width: 55rem;
   position: fixed;
+  left: 0;
   bottom: 0;
 }
 
@@ -126,6 +127,11 @@ body {
 }
 
 @media screen and (max-width: 375px) {
+ html,
+  body {
+    font-size: 3.5px;
+  }
+
   .article {
     display: flex;
     flex-direction: column;
@@ -134,74 +140,40 @@ body {
 
   .imgbox {
     order: 1;
-    width: auto;
-    margin: 0.5rem;
-    padding: 1rem;
-  }
-
-  .bg {
-    width: 15rem;
-  }
-
-  .profile {
-    width: 12rem;
-    position: absolute;
-    top: 2.3rem;
-    left: 1rem;
   }
 
   .direction {
-    width: 4.4rem;
-    border-radius: 50px;
-    background-color: #ffffff;
-    position: relative;
-    top: -2rem;
-    left: 5rem;
-  }
-
-  .direction img {
-    width: 2rem;
-    padding: 6px 8px;
+    margin-left: 12rem;
   }
 
   .txtbox {
     order: 2;
-    width: auto;
-    margin: 0.5rem;
-    margin-bottom: 5rem;
-    padding: 1rem;
-  }
-
-  .pattern-quotes {
-    width: 5rem;
-    margin-left: 7.7rem;
-    margin-bottom: -2.8rem;
-  }
-
-  .quotes {
-    width: 22rem;
-    font-size: 1rem;
-    text-align: center;
-    line-height: 1.6rem;
-    margin: 0;
-    padding: 1rem;
-  }
-
-  .author {
-    font-size: 1rem;
-    font-weight: 300;
-    text-align: center;
-    line-height: 1.6rem;
     margin: 0;
     padding: 0;
   }
 
+  .pattern-quotes {
+    margin: 0 auto;
+    margin-bottom: -5rem;
+  }
+
+  .quotes {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .author {
+    font-size: 2rem;
+    text-align: center;
+  }
+
   .author span {
     display: block;
+    padding: 0.2rem;
   }
 
   .pattern-curve {
-    width: 25rem;
+    grid-area: curve;
     position: fixed;
     left: 0;
     bottom: 0;
