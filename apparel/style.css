@@ -127,6 +127,7 @@ p {
 }
 
 #message {
+  width: 15rem;
   color: var(--primary-red);
   margin: 0.5rem;
   padding: 0.5rem;
@@ -192,8 +193,7 @@ p {
   #message {
     text-align: center;
     font-size: 0.7rem;
-    margin: 1rem 14rem 1.5rem;
-    padding: 1rem 2rem;
+    margin-left: 10rem;
   }
 
   .img {
