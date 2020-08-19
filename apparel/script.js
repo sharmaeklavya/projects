@@ -10,14 +10,14 @@ document.addEventListener("DOMContentLoaded", (event) => {
     );
     if (input.value === "") {
       message.innerHTML = "You can not leave this empty.";
-      error.style.visibility = "visible";
+      error.style.display = "block";
     } else if (!validate) {
       message.innerHTML = "Please provide a valid email.";
-      error.style.visibility = "visible";
+      error.style.display = "block";
     } else {
       message.innerHTML =
         "Thank you for subscribing. We'll get back to you ASAP.";
-      error.style.visibility = "hidden";
+      error.style.display = "none";
     }
   });
 });
