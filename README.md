@@ -2,7 +2,7 @@
 
 ## I love to code. 
 ## I am a born learner and a problem solver.
-## I have acquired various programming skills over the years.
+## Right now, busy with JS.
 
 ## my Projects:
 - [Photography Portfolio](https://redirect.is/dr1eqr)
