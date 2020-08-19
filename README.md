@@ -5,7 +5,7 @@
 ## Right now, busy with JS.
 
 ## my Projects:
-- [Photography Portfolio](https://redirect.is/dr1eqr)
+- [Photography Portfolio](https://sharmaeklavya.github.io/projects/portfolio/)
 - [Music Records](http://tiny.cc/hhcpnz)
 - [Active Preview Component](https://sharmaeklavya.github.io/projects/activePreview/)
 - [Fylo Data Component](https://sharmaeklavya.github.io/projects/fylodata/)
