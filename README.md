@@ -11,4 +11,4 @@
 - [Testimonnial Slider](https://sharmaeklavya.github.io/projects/testimonials/)
 - [Card Feature](https://sharmaeklavya.github.io/projects/card-feature/)
 - [Apparel Landing Page](https://sharmaeklavya.github.io/projects/apparel/)
-- [Social Media Bar](https://sharmaeklavya.github.io/projects/socialmedia/)
+- [Social Media Dashboard](https://sharmaeklavya.github.io/projects/socialmedia/)
