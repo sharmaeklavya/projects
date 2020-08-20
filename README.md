@@ -1,8 +1,7 @@
 # Hi! My name is Eklavya Sharma.
 
-## I love to code. 
 ## I am a born learner and a problem solver.
-## Right now, busy with JS.
+## I love to code. Right now, busy with JavaScript.
 
 ## my Projects:
 - [Photography Portfolio](https://sharmaeklavya.github.io/projects/portfolio/)
