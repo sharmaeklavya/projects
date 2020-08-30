@@ -12,3 +12,4 @@
 - [Card Feature](https://sharmaeklavya.github.io/projects/card-feature/)
 - [Apparel Landing Page](https://sharmaeklavya.github.io/projects/apparel/)
 - [Social Media Dashboard](https://sharmaeklavya.github.io/projects/socialmedia/)
+- [Insure Landing Page](https://sharmaeklavya.github.io/projects/insure/)
