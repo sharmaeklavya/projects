@@ -13,3 +13,4 @@
 - [Apparel Landing Page](https://sharmaeklavya.github.io/projects/apparel/)
 - [Social Media Dashboard](https://sharmaeklavya.github.io/projects/socialmedia/)
 - [Insure Landing Page](https://sharmaeklavya.github.io/projects/insure/)
+- [Pricing Component](https://sharmaeklavya.github.io/projects/pricing/)
