@@ -14,3 +14,5 @@
 - [Social Media Dashboard](https://sharmaeklavya.github.io/projects/socialmedia/)
 - [Insure Landing Page](https://sharmaeklavya.github.io/projects/insure/)
 - [Pricing Component](https://sharmaeklavya.github.io/projects/pricing/)
+- [Color Flipper](https://sharmaeklavya.github.io/projects/colorFlipper/)
+- [Counter](https://sharmaeklavya.github.io/projects/counter/)
