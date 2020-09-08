@@ -16,3 +16,4 @@
 - [Pricing Component](https://sharmaeklavya.github.io/projects/pricing/)
 - [Color Flipper](https://sharmaeklavya.github.io/projects/colorFlipper/)
 - [Counter](https://sharmaeklavya.github.io/projects/counter/)
+- [Question-Answers](https://sharmaeklavya.github.io/projects/questions/)
