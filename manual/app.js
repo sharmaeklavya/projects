@@ -81,12 +81,10 @@ const tfManual = [
 ];
 
 // class selectors
-const commonIssues = document.querySelector(".common-issues");
 const topics = document.querySelector(".topics");
 const form = document.querySelector(".search-form");
 const input = document.getElementById("search");
 const navBtns = document.querySelectorAll(".nav-btn");
-const icons = document.querySelectorAll(".a-icons");
 
 // function displayManual
 function displayQNS(tfManual) {
@@ -108,14 +106,9 @@ function displayQNS(tfManual) {
     })
     .join("");
   topics.innerHTML = manuals;
-  
+  toggleSolutions();
 }
 displayQNS(tfManual);
-
-// class selectors
-const questions = document.querySelectorAll(".issue-item");
-const answers = document.querySelectorAll(".solution-item");
-const questionAnswers = document.querySelectorAll(".issues-solutions");
 
 //function filter questions
 function filterCategory(navs) {
@@ -138,7 +131,11 @@ function filterCategory(navs) {
 filterCategory(navBtns);
 
 // function show hide solutions
-function toggleSolutions(questions) {
+function toggleSolutions() {
+  // class selectors
+const questions = document.querySelectorAll(".issue-item");
+const answers = document.querySelectorAll(".solution-item");
+
   questions.forEach((q) => {
     q.addEventListener("click", (btn) => {
       const current = btn.currentTarget;
@@ -153,7 +150,6 @@ function toggleSolutions(questions) {
     });
   });
 }
-toggleSolutions(questions);
 
 
 // // function search texts
