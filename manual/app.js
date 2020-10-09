@@ -102,7 +102,7 @@ function displayQNS(tfManual) {
     </p>
     <div class="solution-item">
     ${tf.img.map((i) => {
-      return `<img src="${i}" class="image-item""/>`;
+      return `<img src="${i}" class="image-item"/>`;
     })}</div>
     </div>`;
     })
