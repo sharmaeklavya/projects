@@ -25,7 +25,7 @@ body {
 }
 
 .container {
-  padding: 2rem;
+  padding: 1rem;
   height: 100%;
   display: grid;
   grid-gap: 1rem;
