@@ -148,7 +148,7 @@ body {
 
 .issue-item {
   margin: 0.5rem;
-  padding: 0.5rem;
+  padding: 1rem;
   font-size: 1rem;
   word-wrap: break-word;
   cursor: pointer;
@@ -180,7 +180,7 @@ body {
 
 .image-item {
   width: 100%;
-  margin: 0.5rem;
+  margin-right: 0.5rem;
   cursor: pointer;
 }
 
