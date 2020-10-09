@@ -87,13 +87,12 @@ body {
 }
 
 .search-icon {
-  padding: 0.5rem;
   font-size: 1.1rem;
   color: gray;
 }
 
 #search {
-  width: 60%;
+  width: 70%;
   outline: none;
   border: none;
   padding: 1rem;
@@ -141,8 +140,6 @@ body {
 }
 
 .topics {
-  margin: 0.5rem;
-  padding: 0.5rem;
   cursor: pointer;
 }
 
@@ -206,6 +203,17 @@ body {
 
 @media (max-width: 768px) {
   .container {
+    padding: 0.5rem;
     grid-template-columns: 1fr;
+  }
+  .related-links,
+  .search-section {
+    margin: 0.5rem;
+  }
+  #search {
+    width: 50%;
+  }
+  .nav-bar {
+    margin: 0;
   }
 }
