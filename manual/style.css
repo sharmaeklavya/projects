@@ -148,7 +148,7 @@ body {
 
 .issue-item {
   margin: 0.5rem;
-  padding: 1rem;
+  padding: 0.5rem;
   font-size: 1rem;
   word-wrap: break-word;
   cursor: pointer;
@@ -169,8 +169,8 @@ body {
 }
 
 .solution-item {
-  margin: 0.5rem 0;
-  padding: 1rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
   font-size: 1rem;
   cursor: text;
   line-height: 2rem;
