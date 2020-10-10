@@ -35,7 +35,7 @@ body {
 
 .related-links {
   margin: 1rem;
-  padding: 0.5rem;
+  padding: 1rem;
   justify-self: center;
 }
 
@@ -67,12 +67,12 @@ body {
 .search-section {
   width: 90%;
   margin: 1rem;
-  padding: 0.5rem;
+  padding: 1rem;
   justify-self: center;
 }
 
 .search-form {
-  height: 10rem;
+  height: 12rem;
   margin: 0.5rem;
   text-align: center;
 }
@@ -94,7 +94,7 @@ body {
   width: 70%;
   outline: none;
   border: none;
-  padding: 1rem;
+  padding: 0.5rem;
   font-size: 1.1rem;
   font-weight: 400;
   background: none;
@@ -137,15 +137,11 @@ body {
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
-.topics {
-  cursor: pointer;
-}
-
-.issue-item {
-  margin: 0.5rem;
+.issue-item,
+.question {
+  margin-top: 1rem;
   padding: 1rem;
   font-size: 1rem;
-  overflow-wrap: break-word;
   cursor: pointer;
   line-height: 2rem;
   font-weight: 500;
@@ -153,6 +149,14 @@ body {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
   position: relative;
+}
+
+.issue-item > i {
+  float: right;
+  padding: 0.5rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
 
 .item-bg {
@@ -163,13 +167,17 @@ body {
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
-.solution-item {
+.solution-item,
+.answer {
   margin: 0.5rem;
   padding: 0.5rem;
   font-size: 1rem;
   cursor: text;
   line-height: 2rem;
   font-weight: 400;
+}
+
+.solution-item {
   display: none;
 }
 
@@ -180,23 +188,11 @@ body {
 }
 
 .show-item {
-  display: inline-block;
+  display: block;
 }
 
 .hide-item {
   display: none;
-}
-
-.fa-plus,
-.fa-minus {
-  float: right;
-  padding: 0.5rem;
-}
-
-.fa-minus,
-.fa-plus {
-  position: absolute;
-  right: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -204,11 +200,18 @@ body {
     padding: 0.5rem;
     grid-template-columns: 1fr;
   }
-  .related-links,
-  .search-section {
+  .search-section,
+  .related-links {
     margin: 0.5rem;
+    padding: 0.5rem;
   }
-.search-icon {
- display: none;
+  #search {
+    width: 80%;
+  }
+  .search-icon {
+    display: none;
+  }
+  .issue-item > i {
+    top: 2rem;
   }
 }
