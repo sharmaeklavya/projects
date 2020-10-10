@@ -160,7 +160,7 @@ const tfManual = [
   {
     id: 18,
     question: `Breakout rooms – Pre-assignment?`,
-    answer: `Instructors who wish to pre-assign students to Zoom breakout rooms should make a list of the rooms, and create the rooms manually after Zoom starts (they must “claim host”) but before class starts. Then during the lesson they must take the time to move students into the rooms. Students cannot be pre-assigned to a room before they join Zoom. They must be logged into Zoom already before they can be assigned.      
+    answer: `A1: Instructors who wish to pre-assign students to Zoom breakout rooms should make a list of the rooms, and create the rooms manually after Zoom starts (they must “claim host”) but before class starts. Then during the lesson they must take the time to move students into the rooms. Students cannot be pre-assigned to a room before they join Zoom. They must be logged into Zoom already before they can be assigned.      
     <br /> <br />Students who do not join from the Zoom downloadable desktop app, but come in through a browser or phone app will not be able to join Zoom. Ask the students to join via the Zoom app.`,
     img: [],
     category: "zoom",
@@ -289,7 +289,7 @@ const tfManual = [
   },
   {
     id: 34,
-    question: `Zoom issues i.e. server down/ can not access any service?`,
+    question: `Zoom issues i.e. cannot claim host?`,
     answer: `When problems arise and could not be fixed from our end, it might be caused by Zoom.
     <br /> <br />Here are two links to check Zoom’s status:
     <br /> https://status.zoom.us
@@ -317,15 +317,16 @@ function displayQNS(tfManual) {
     .map((tf) => {
       return `<div class="issues-solutions">
       <p class="issue-item">
-      ${tf.question}<i class="fas fa-plus"></i>
+      ${tf.question}
+      <i class="fas fa-plus"></i>
       <i class="fas fa-minus"></i>
     </p>
     <p class="solution-item">
       ${tf.answer}
     </p>
     <div class="solution-item">
-    ${tf.img.map((i) => {
-      return `<img src="${i}" class="image-item"/>`;
+    ${tf.img.map((i) => {      
+      return `<a href="${i}" data-lightbox="mygallery"><img src="${i}" class="image-item"/></a>`;
     }).join('')}</div>
     </div>`;
     })
@@ -363,8 +364,7 @@ const answers = document.querySelectorAll(".solution-item");
     q.addEventListener("click", (btn) => {
       const current = btn.currentTarget;
       current.classList.toggle("item-bg");
-      current.childNodes[1].classList.toggle("hide-item");
-      current.childNodes[3].classList.toggle("show-item");      
+      current.childNodes[1].classList.toggle("hide-item");   
       answers.forEach((a) => {
         if (current.parentElement === a.parentElement) {
           a.classList.toggle("show-item");          
