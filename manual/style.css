@@ -74,7 +74,6 @@ body {
 .search-form {
   height: 10rem;
   margin: 0.5rem;
-  padding: 0.5rem;
   text-align: center;
 }
 
@@ -209,7 +208,7 @@ body {
   .search-section {
     margin: 0.5rem;
   }
-  #search {
-    width: 50%;
+.search-icon {
+ display: none;
   }
 }
