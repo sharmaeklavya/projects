@@ -220,6 +220,10 @@ body {
   #search {
     width: 95%;
   }
+  .image-item{
+   width: 100%;
+  
+  }
   .issue-item > i {
     top: 2rem;
   }
