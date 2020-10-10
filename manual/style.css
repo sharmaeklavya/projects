@@ -178,9 +178,17 @@ body {
 }
 
 .image-item {
-  width: 90%;
-  margin-right: 0.5rem;
+  border: 1px solid gray;
+  width: 35%;
+  margin: 1rem;
   cursor: pointer;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.image-item:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
 }
 
 .show-item {
@@ -202,14 +210,14 @@ body {
     padding: 0.5rem;
   }
   .search-form {
-    width: 95%;
+    width: 90%;
     margin: 1rem auto 5rem;
   }
   .search-icon {
     display: none;
   }
-   #search {
-    width: 100%;
+  #search {
+    width: 95%;
   }
   .issue-item > i {
     top: 2rem;
