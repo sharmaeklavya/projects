@@ -177,8 +177,8 @@ body {
 }
 
 .image-item {
-  width: 45%;
-  height: 12rem;
+  width: 40%;
+  height: 10rem;
   margin: 1rem;
   cursor: pointer;
   filter: grayscale(100%);
@@ -220,9 +220,8 @@ body {
   #search {
     width: 95%;
   }
-  .image-item{
-   width: 100%;
-  
+  .image-item {
+    width: 80%;
   }
   .issue-item > i {
     top: 2rem;
