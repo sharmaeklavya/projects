@@ -21,12 +21,12 @@ const tfManual = [
     faculty has loaded them in the “slides” folder in Canvas files. Handouts are linked under “Class Resources” if they are in the “live lecture resources” folder in Canvas, and published.
     <br /> <br />If all students cannot locate materials, escalate to TF Managers (Ben, Alec, Dylan) – the reason is that it’s not published or not in Canvas at all.`,
     img: [
-      "images/questiontwo1.jpg",
-      "images/questiontwo2.jpg",
-      "images/questiontwo3.jpg",
-      "images/questiontwo4.jpg",
-      "images/questiontwo5.jpg",
-      "images/questiontwo6.jpg",
+      "images/2_1.jpg",
+      "images/2_2.jpg",
+      "images/2_3.jpg",
+      "images/2_4.jpg",
+      "images/2_5.jpg",
+      "images/2-6.jpg",
     ],
     category: "ucommons",
   },
@@ -38,14 +38,14 @@ const tfManual = [
     <br /> <br />OR: Students/Instructors may need to refresh [exit and re-join the lecture].
     <br /> <br />OR: Students did not join zoom through Ucommons or joined zoom with different account. Ask to refresh page, then ask them to leave Zoom, click “Join Lecture” and “Join Zoom” button.
     <br /> <br />OR: If instructors cannot see all students in Home Studio, it might because the Home Studio is launched to the wrong course (in situations where the instructor is teaching two different courses). The TF who launched the HomeStudio will need to end the first session and then launch the second session. Please note, the start and end times for each lesson is in director. Remember to come back and end a session. At the end of the class session (or your shift) remember to end all non-running live lectures.`,
-    img: ["images/questionthree1.jpg"],
+    img: ["images/3_1.jpg"],
     category: "homestudio",
   },
   {
     id: 4,
     question: `Students cannot hear the audio?`,
     answer: `The instructor needs to share screen and check the box "share computer sound"`,
-    img: ["images/questionfour1.jpg"],
+    img: ["images/4_1.jpg"],
     category: "zoom",
   },
   {
@@ -61,21 +61,22 @@ const tfManual = [
     answer: `Navigate to the Ucommons login page and click on the “Contact Technical Support” - just beneath the login button;
     <br /> <br /> A form should appear for you entitled “Contact Support” in which you must fill in your name, email, location, help request type, and then a small detailed write-up of the issue, as well as any screenshot’s that might help identify the issue.
     <br /> <br /> Once that information is all set scroll to the bottom and submit.`,
-    img: ["images/questionsix1.jpg"],
+    img: ["images/6_1.jpg",
+    "images/6_2.jg"],
     category: "ucommons",
   },
   {
     id: 7,
     question: `Students’ video do not enlarge when they speak?`,
     answer: `Instructor needs to click on the 'Automatic' while in Lecture Mode.`,
-    img: ["images/questionseven1.jpg"],
+    img: ["images/7_1.jpg"],
     category: "ucommons",
   },
   {
     id: 8,
     question: `If an instructor asks, "How do I find roster"?`,
     answer: `Go to dashboard in UCommons (Join UCommons or leave Live Lecture to see dashboard) and then select "Course Roster" on the Course Card.`,
-    img: ["images/questioneight1.jpg"],
+    img: ["images/8_1.jpg"],
     category: "ucommons",
   },
   {
@@ -89,11 +90,10 @@ const tfManual = [
   },
   {
     id: 10,
-    question: `Poll/Short answers-questions can’t run?`,
+    question: `Poll/Short answers-questions cannot run?`,
     answer: `Something not ended, ask the instructor to go to "all" and look for the red square. End running question. It should be able run new poll/short answers now.    
     <br /> <br /> OR: If the current session doesn’t have a question running, it is likely that something not ended in the previous sessions. The instructor should go to "Ucommons" then	"last lecture review" (if it was earlier lecture, click "prev lesson")	and end the open question.`,
-    img: ["images/questionten1.jpg",
-    "images/questionten2.jpg"],
+    img: ["images/10_1.jpg"],
     category: "ucommons",
   },
   {
@@ -104,7 +104,10 @@ const tfManual = [
     <br /> <br />Step 3:	Create new or edit Poll or Short Answers.
     <br /> <br />Step 4	Return to "Dashboardd"
     <br /> <br />Step 5: Rejoin live lecture`,
-    img: [],
+    img: ["images/11_1.jpg",
+    "images/11_2.jpg",
+    "images/11_3.jpg",
+    "images/11_4.jpg"],
     category: "ucommons",
   },
   {
@@ -132,14 +135,14 @@ const tfManual = [
   },
   {
     id: 15,
-    question: `When the instructor switch pages, students don’t follow?`,
+    question: `When the instructor switch pages, students do not follow?`,
     answer: `Make sure the button in the upper right corner of the page is checked by the instructor. The icon should have a raised baton.`,
-    img: [],
+    img: ["images/15_1.jpg"],
     category: "whiteboard",
   },
   {
     id: 16,
-    question: `Claim Host/Breakout Room - instructors don’t have access to breakout rooms?`,
+    question: `Claim Host/Breakout Room - instructors do not have access to breakout rooms?`,
     answer: `The instructor needs to "Claim Host":
     <br/> i.	Tell the instructor you will put the answer in chat in Zoom.
     <br/> ii.	Start a PRIVATE CHAT in Zoom, and remind them...
@@ -154,7 +157,7 @@ const tfManual = [
     answer: `if the instructor didn't pre-assign breakout rooms, they can randomly assign during the class from zoom.
     <br /> <br />Note that in a large class, it's better to choose "automatically" to save time. For a smaller class, one can use "manually" and select the students to go into each breakout room. 
     <br /> <br />Note that there is no way to "save" room assignments from one Zoom session to the next.`,
-    img: [],
+    img: ["images/17_1.jpg"],
     category: "zoom",
   },
   {
@@ -167,7 +170,7 @@ const tfManual = [
   },
   {
     id: 19,
-    question: `Breakout rooms – not urgent issue (e.g. professor say ok, I don’t have to use it for this lecture)?`,
+    question: `Breakout rooms – not urgent issue (e.g. professor say ok, I do not have to use it for this lecture)?`,
     answer: `TFs can provide resources and links to Zoom basics (1-12 list) 
     <br /> https://support.zoom.us/hc/en-us/articles/206476093-Getting-Started-with-Video-Breakout-Rooms`,
     img: [],
@@ -185,7 +188,7 @@ const tfManual = [
     id: 21,
     question: `Instructor only wants to see gallery mode in Home Studio?`,
     answer: `They can enter into Manual mode and select the Rear Camera. This will create that setting for them.`,
-    img: [],
+    img: ["images/21_1.jpg"],
     category: "homestudio",
   },
   {
@@ -223,8 +226,8 @@ const tfManual = [
   },
   {
     id: 26,
-    question: `Instructor can't find today's lecture or  Course card is gone?`,
-    answer: `Follow instructions for "Instructor can't find today's lecture – blue Join Lecture button not active. Still no course card?
+    question: `Instructor cannot find today's lecture or  Course card is gone?`,
+    answer: `Follow instructions for "Instructor cannot find today's lecture – blue Join Lecture button not active. Still no course card?
     <br /> <br />Escalate to TF Managers (Ben, Alec, Dylan).
     <br /> <br />In emergency, Escalate to Curriculum Design (@vickirath in SLACK).`,
     img: [],
@@ -232,11 +235,12 @@ const tfManual = [
   },
   {
     id: 27,
-    question: `Instructor can't find today's lecture – blue Join button not active?`,
+    question: `Instructor cannot find today's lecture – blue Join button not active?`,
     answer: `Check class calendar (have instructor share screen, click Class Calendar as shown). After updating, ask instructor to refresh browser.
     <br /> <br />Edit class to the correct date and time and submit.
     <br /> <br />If this does not work, escalate to TF Managers (@Ben/Alec/Dylan in Slack)`,
-    img: [],
+    img: ["images/27_1.jpg",
+    "images/27_2.jpg"],
     category: "ucommons",
   },
   {
@@ -252,7 +256,7 @@ const tfManual = [
     id: 29,
     question: `Home Studio needs to be relaunched?`,
     answer: `TF can refresh through "Re-start Apps" button.`,
-    img: [],
+    img: ["images/29_1.jpg"],
     category: "homestudio",
   },
   {
@@ -262,7 +266,9 @@ const tfManual = [
     <br /> <br />-	Navigate to the Windows Settings page and click the "System" Option on the top left of the window.
     <br /> <br />-	Next Select the “Power & Sleep” Option from the list on the left side of the window.
     <br /> <br />-	Within the Power & Sleep window, there is a drop down menu for “Screen” and “Sleep”. Make sure “Never”	is selected for both. This will ensure the pc sleep function is deactivated.`,
-    img: [],
+    img: ["images/30_1.jpg",
+    "images/30_2.jpg",
+    "images/30_3.jpg"],
     category: "homestudio",
   },
   {
@@ -275,7 +281,7 @@ const tfManual = [
   },
   {
     id: 32,
-    question: `Home Studio computer is turned on but TF can't see it as active in LogMeIn?`,
+    question: `Home Studio computer is turned on but TF cannot see it as active in LogMeIn?`,
     answer: `Ask instructor to run a speedtest Fast.com (often instructors have the studio on but not connected to internet).`,
     img: [],
     category: "homestudio",
@@ -284,7 +290,7 @@ const tfManual = [
     id: 33,
     question: `UCommons is slow loading?`,
     answer: `We will escalate this to the technical team. Please also contact Help Desk on UCommons. There is a link on every page of UCommons, including the login page. Unfortunately this will be solved by the next day, please use zoom without Ucommons today.`,
-    img: [],
+    img: ["images/33_1.jpg"],
     category: "ucommons",
   },
   {
@@ -400,4 +406,3 @@ form.addEventListener('input', (e)=> {
   topics.innerHTML = search
 })
 }
-
