@@ -160,7 +160,7 @@ const tfManual = [
   {
     id: 18,
     question: `Breakout rooms – Pre-assignment?`,
-    answer: `A1: Instructors who wish to pre-assign students to Zoom breakout rooms should make a list of the rooms, and create the rooms manually after Zoom starts (they must “claim host”) but before class starts. Then during the lesson they must take the time to move students into the rooms. Students cannot be pre-assigned to a room before they join Zoom. They must be logged into Zoom already before they can be assigned.      
+    answer: `Instructors who wish to pre-assign students to Zoom breakout rooms should make a list of the rooms, and create the rooms manually after Zoom starts (they must “claim host”) but before class starts. Then during the lesson they must take the time to move students into the rooms. Students cannot be pre-assigned to a room before they join Zoom. They must be logged into Zoom already before they can be assigned.      
     <br /> <br />Students who do not join from the Zoom downloadable desktop app, but come in through a browser or phone app will not be able to join Zoom. Ask the students to join via the Zoom app.`,
     img: [],
     category: "zoom",
@@ -289,7 +289,7 @@ const tfManual = [
   },
   {
     id: 34,
-    question: `Zoom issues i.e. cannot claim host?`,
+    question: `Zoom issues i.e. server down/ can not access any service?`,
     answer: `When problems arise and could not be fixed from our end, it might be caused by Zoom.
     <br /> <br />Here are two links to check Zoom’s status:
     <br /> https://status.zoom.us
