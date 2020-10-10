@@ -1,7 +1,7 @@
 const tfManual = [
   {
     id: 1,
-    question: `A stduent doesn’t have UCOMMONS set up yet. Can he/she join the lecture?`,
+    question: `A student does not have Ucommons set up yet. Can he/she join the lecture?`,
     answer: `Student should first contact their Program Coordinator. They MUST have UCommons credentials to join a class. This is covered in the student orientation. 
       <br /> <br /> OR: If instructor wants to allow students to audit the class, instructors need to clear this with Course Support/Vicky prior to class. TFs cannot give this permission.
       <br/> <br /> Note: giving student direct link will cause security issues and instructors should not share the zoom link with students. Once know a link is shared, report to @Eli to change zoom settings.`,
@@ -10,14 +10,14 @@ const tfManual = [
   },
   {
     id: 2,
-    question: `Students can't find documents on Ucommons?`,
+    question: `Students cannot find documents on Ucommons?`,
     answer: `Students can access all course materials from the following steps:
     <br /> Step 1: They are logged into UCommons
     <br /> Step 2: They click the title of the lesson (as shown below)
     <br /> Step 3: The link will take students into the Modules page in Canvas (https://ucommons.instructure.com/). Ask them to click on “Directions” and look for the materials there.
-    <br /> Step 4: Other materials may be found in folders. In the same Canvas view, click on “Files,” then open the folder for this lesson and then the “live lecture resources” folder.
+    <br /> Step 4: Other materials may be found in folders. In the same Canvas view, click on "Files", then open the folder for this lesson and then the “live lecture resources” folder.
     <br /> Step 5: Course level materials that are related to multiple lessons can be found in some courses (faculty option) by clicking on “Modules” and scrolling to the top of the page.
-    <br /> <br />Alternatively, students should be able to quickly find lecture slides and handouts after clicking the “join lecture” button on UCOMMONS. Slides can be found on the Slides tab if the
+    <br /> <br />Alternatively, students should be able to quickly find lecture slides and handouts after clicking the “join lecture” button on Ucommons. Slides can be found on the Slides tab if the
     faculty has loaded them in the “slides” folder in Canvas files. Handouts are linked under “Class Resources” if they are in the “live lecture resources” folder in Canvas, and published.
     <br /> <br />If all students cannot locate materials, escalate to TF Managers (Ben, Alec, Dylan) – the reason is that it’s not published or not in Canvas at all.`,
     img: [
@@ -36,7 +36,7 @@ const tfManual = [
     answer: `Check the participant list on zoom to make sure there are students in the meeting.
     <br /> <br />OR: Students may be in wrong lecture.
     <br /> <br />OR: Students/Instructors may need to refresh [exit and re-join the lecture].
-    <br /> <br />OR: Students did not join zoom through UCOMMONS or joined zoom with different account. Ask to refresh page, then ask them to leave Zoom, click “Join Lecture” and “Join Zoom” button.
+    <br /> <br />OR: Students did not join zoom through Ucommons or joined zoom with different account. Ask to refresh page, then ask them to leave Zoom, click “Join Lecture” and “Join Zoom” button.
     <br /> <br />OR: If instructors cannot see all students in Home Studio, it might because the Home Studio is launched to the wrong course (in situations where the instructor is teaching two different courses). The TF who launched the HomeStudio will need to end the first session and then launch the second session. Please note, the start and end times for each lesson is in director. Remember to come back and end a session. At the end of the class session (or your shift) remember to end all non-running live lectures.`,
     img: ["images/questionthree1.jpg"],
     category: "homestudio",
@@ -44,7 +44,7 @@ const tfManual = [
   {
     id: 4,
     question: `Students cannot hear the audio?`,
-    answer: `The instructor needs to share screen and check the box “share computer sound”`,
+    answer: `The instructor needs to share screen and check the box "share computer sound"`,
     img: ["images/questionfour1.jpg"],
     category: "zoom",
   },
@@ -57,7 +57,7 @@ const tfManual = [
   },
   {
     id: 6,
-    question: `Students or Professors cannot login into UCOMMONS?`,
+    question: `Students or Professors cannot login into Ucommons?`,
     answer: `Navigate to the Ucommons login page and click on the “Contact Technical Support” - just beneath the login button;
     <br /> <br /> A form should appear for you entitled “Contact Support” in which you must fill in your name, email, location, help request type, and then a small detailed write-up of the issue, as well as any screenshot’s that might help identify the issue.
     <br /> <br /> Once that information is all set scroll to the bottom and submit.`,
@@ -74,7 +74,7 @@ const tfManual = [
   {
     id: 8,
     question: `If an instructor asks, "How do I find roster"?`,
-    answer: `Go to dashboard in UCommons (Join UCommons or leave Live Lecture to see dashboard) and then select “Course Roster” on the Course Card.`,
+    answer: `Go to dashboard in UCommons (Join UCommons or leave Live Lecture to see dashboard) and then select "Course Roster" on the Course Card.`,
     img: ["images/questioneight1.jpg"],
     category: "ucommons",
   },
@@ -82,8 +82,8 @@ const tfManual = [
     id: 9,
     question: `Instructor not seeing hand-raises?`,
     answer: `Students or instructor may be in wrong lecture.
-    <br /> <br /> OR: Students or instructor may need to refresh UCOMMONS. 
-    <br /> <br /> OR: Student is raised hand through Zoom not UCOMMONS.`,
+    <br /> <br /> OR: Students or instructor may need to refresh Ucommons. 
+    <br /> <br /> OR: Student is raised hand through Zoom not Ucommons.`,
     img: [],
     category: "ucommons",
   },
@@ -91,7 +91,7 @@ const tfManual = [
     id: 10,
     question: `Poll/Short answers-questions can’t run?`,
     answer: `Something not ended, ask the instructor to go to "all" and look for the red square. End running question. It should be able run new poll/short answers now.    
-    <br /> <br /> OR: If the current session doesn’t have a question running, it is likely that something not ended in the previous sessions. The instructor should go to "ucommons" then	"last lecture review" (if it was earlier lecture, click "prev lesson")	and end the open question.`,
+    <br /> <br /> OR: If the current session doesn’t have a question running, it is likely that something not ended in the previous sessions. The instructor should go to "Ucommons" then	"last lecture review" (if it was earlier lecture, click "prev lesson")	and end the open question.`,
     img: ["images/questionten1.jpg",
     "images/questionten2.jpg"],
     category: "ucommons",
@@ -283,7 +283,7 @@ const tfManual = [
   {
     id: 33,
     question: `UCommons is slow loading?`,
-    answer: `We will escalate this to the technical team. Please also contact Help Desk on UCommons. There is a link on every page of UCommons, including the login page. Unfortunately this will be solved by the next day, please use zoom without UCOMMONS today.`,
+    answer: `We will escalate this to the technical team. Please also contact Help Desk on UCommons. There is a link on every page of UCommons, including the login page. Unfortunately this will be solved by the next day, please use zoom without Ucommons today.`,
     img: [],
     category: "ucommons",
   },
@@ -308,9 +308,10 @@ const navBtns = document.querySelectorAll(".nav-btn");
 
 // functions loading
 displayQNS(tfManual);
-filterCategory(navBtns);
+filterQNS(navBtns);
+searchBarQNS();
 
-// function displayManual - questions and answers
+// function display - questions and answers
 function displayQNS(tfManual) {
   const manuals = tfManual
     .map((tf) => {
@@ -333,8 +334,8 @@ function displayQNS(tfManual) {
   toggleSolutions();
 }
 
-//function filter questions
-function filterCategory(navs) {
+//function filter questions and answers
+function filterQNS(navs) {
   navs.forEach((btns) => {
     btns.addEventListener("click", (btn) => {
       const btnCategory = btn.currentTarget.dataset.id;
@@ -352,7 +353,7 @@ function filterCategory(navs) {
   });
 }
 
-// function show hide solutions
+// function show hide answers/ solutions
 function toggleSolutions() {
 // class selectors
 const questions = document.querySelectorAll(".issue-item");
@@ -373,23 +374,29 @@ const answers = document.querySelectorAll(".solution-item");
   });
 }
 
-
-
-// // function search texts
-// function filteredItems() {
-//   const value = input.value;
-//   let paragraph;
-//   answers.forEach((a) => {
-//     paragraph = a.textContent;
-//     const regex = new RegExp(value);
-//     paragraph.match(regex, "gi");
-//   });
-//   topics.innerHTML = `<p class="item">${paragraph} </p>`;
-// }
-
-// // event listerns
-// form.addEventListener("submit", (e) => {
-//   e.preventDefault();
-//   filteredItems();
-// });
-//
+// search bar questions and answers
+function searchBarQNS(){
+form.addEventListener('input', (e)=> {
+  e.preventDefault();
+  const value = e.target.value.toLowerCase()
+  let search = tfManual.filter(tf => {
+    const qns = [tf.question, tf.answer].toString().toLowerCase()   
+    return qns.includes(value)      
+  })
+  search = search.map(sch => {
+    return `<div class="issues-solutions">
+    <p class="question">
+    ${sch.question}
+  </p>
+  <p class="answer">
+    ${sch.answer}
+  </p>
+  <div class="answer">
+  ${sch.img.map((i) => {
+    return `<img src="${i}" class="image-item"/>`;
+  }).join('')}</div>
+  </div>`;
+  }).join('')
+  topics.innerHTML = search
+})
+}
