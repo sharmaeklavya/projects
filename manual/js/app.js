@@ -26,7 +26,7 @@ const tfManual = [
       "images/2_3.jpg",
       "images/2_4.jpg",
       "images/2_5.jpg",
-      "images/2-6.jpg",
+      "images/2_6.jpg",
     ],
     category: "ucommons",
   },
