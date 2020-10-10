@@ -6,6 +6,7 @@
   --secondary-text: #eb7304;
   --border-color: #cbd5e0;
   --white-color: #fff;
+  --bg-color: #212e36;
 }
 
 *,
@@ -155,7 +156,7 @@ body {
 }
 
 .item-bg {
-  background-color: #212e36;
+  background-color: var(--bg-color);
   color: var(--white-color);
   border-radius: 5px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -189,7 +190,7 @@ body {
 .image-item:hover {
   filter: grayscale(0);
   transform: scale(1.1);
-  border: 2px solid #212e36;
+  border: 2px solid var(--secondary-text);
 }
 
 .show-item {
