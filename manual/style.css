@@ -200,12 +200,6 @@ body {
     margin: 0.5rem;
     padding: 0.5rem;
   }
-  #search {
-    width: 80%;
-  }
-  .search-icon {
-    display: none;
-  }
   .issue-item > i {
     top: 2rem;
   }
