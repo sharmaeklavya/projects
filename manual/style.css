@@ -208,6 +208,9 @@ body {
   .search-icon {
     display: none;
   }
+   #search {
+    width: 100%;
+  }
   .issue-item > i {
     top: 2rem;
   }
