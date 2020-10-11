@@ -1,3 +1,4 @@
+// importing data from other file
 import {tfManual} from './data.js';
 
 // class selectors
@@ -7,8 +8,8 @@ const navBtns = document.querySelectorAll(".nav-btn");
 
 // functions loading
 displayQNS(tfManual);
-filterQNS(navBtns);
-searchBarQNS();
+filterQNS();
+searchBar();
 
 // function display - questions and answers
 function displayQNS(tfManual) {
@@ -34,9 +35,9 @@ function displayQNS(tfManual) {
   toggleSolutions();
 }
 
-//function filter questions and answers
-function filterQNS(navs) {
-  navs.forEach((btns) => {
+//function filter questions and answers for categories
+function filterQNS() {
+  navBtns.forEach((btns) => {
     btns.addEventListener("click", (btn) => {
       const btnCategory = btn.currentTarget.dataset.id;
       const itemCategory = tfManual.filter((item) => {
@@ -74,7 +75,7 @@ const answers = document.querySelectorAll(".solution-item");
 }
 
 // search bar questions and answers
-function searchBarQNS(){
+function searchBar(){
 form.addEventListener('input', (e)=> {
   e.preventDefault();
   const value = e.target.value.toLowerCase()
@@ -82,20 +83,25 @@ form.addEventListener('input', (e)=> {
     const qns = [tf.question, tf.answer].toString().toLowerCase()   
     return qns.includes(value)      
   })
-  search = search.map(sch => {
-    return `<div class="issues-solutions">
-    <p class="question">
-    ${sch.question}
-  </p>
-  <p class="answer">
-    ${sch.answer}
-  </p>
-  <div class="answer">
-  ${sch.img.map((i) => {
-    return `<img src="${i}" class="image-item"/>`;
-  }).join('')}</div>
-  </div>`;
-  }).join('')
-  topics.innerHTML = search
-})
+  if (value){  
+    search = search.map(sch => {
+      return `<div class="issues-solutions">
+      <p class="question">
+      ${sch.question}
+    </p>
+    <p class="answer">
+      ${sch.answer}
+    </p>
+    <div class="answer">
+    ${sch.img.map((i) => {
+      return `<a href="${i}" data-lightbox="mygallery"><img src="${i}" class="image-item"/></a>`;
+    }).join('')}</div>
+    </div>`;
+    }).join('')
+    topics.innerHTML = search
+  }
+  else{
+  displayQNS(tfManual)  
+  }
+  })
 }
