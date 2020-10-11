@@ -178,18 +178,64 @@ tr:nth-child(even) {
 
 @media (max-width: 768px) {
   .container {
-    margin: 0.5rem;
     grid-template-columns: 1fr;
+    position: relative;
   }
-  .content-box {
-    width: 95%;
-    margin: 0.5rem;
-    padding: 1rem;
-  }
+
   .related-links {
-    margin: 0.5rem;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+    display: flex;
+    color: var(--white-color);
+    background-color: var(--secondary-text);
+  }
+
+  .related-links:hover {
+    color: var(--white-color);
+    background-color: var(--secondary-text);
+  }
+
+  .title {
+    margin: 0;
     padding: 0.5rem;
   }
+
+  .links {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .link-item {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: var(--white-color);
+    background-color: var(--primary-text);
+  }
+
+  .link-item:hover {
+    pointer-events: none;
+    border-radius: 0;
+    background-color: var(--primary-text);
+    color: var(--white-color);
+    transition: none;
+    transform: none;
+  }
+
+  .content-box {
+    width: 95%;
+    margin: 16rem 0.5rem 0.5rem;
+    padding: 1rem;
+  }
+
   table {
     width: 200%;
   }
