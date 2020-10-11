@@ -99,14 +99,16 @@ p {
   font-weight: 400;
 }
 
-ul {
+ul,
+ol {
   margin: 0.5rem;
   padding: 0.5rem;
   font-size: 1rem;
   font-weight: 400;
 }
 
-ul li {
+ul li,
+ol li {
   margin: 0.5rem 1.5rem;
 }
 
@@ -132,6 +134,30 @@ th {
   overflow-wrap: break-word;
 
   border: 1px solid var(--border-color);
+}
+
+th:nth-child(odd) {
+  width: 10%;
+}
+
+th:nth-child(1) {
+  width: 6%;
+}
+
+th:nth-child(2) {
+  width: 10%;
+}
+
+th:nth-child(4) {
+  width: 15%;
+}
+
+th:nth-child(6) {
+  width: 14%;
+}
+
+th:nth-child(8) {
+  width: 8%;
 }
 
 tr:nth-child(even) {
