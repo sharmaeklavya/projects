@@ -43,6 +43,11 @@ body {
   list-style-type: none;
 }
 
+.links a {
+  color: var(--primary-text);
+  text-decoration: none;
+}
+
 .title {
   margin: 0.5rem;
   padding: 0.5rem;
@@ -51,7 +56,6 @@ body {
 }
 
 .link-item {
-  margin: 0.5rem;
   padding: 0.5rem 2rem;
   cursor: pointer;
   font-size: 1rem;
@@ -60,8 +64,11 @@ body {
 
 .link-item:hover {
   border-radius: 5px;
-  color: var(--white-color);
   background-color: var(--secondary-text);
+  color: var(--white-color);
+  transition: 500ms;
+  transform: rotate(90deg);
+  transform: scale(1.2);
 }
 
 .search-section {
