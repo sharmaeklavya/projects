@@ -79,7 +79,7 @@ body {
 .link-item:hover {
   border-radius: 5px;
   background-color: var(--secondary-text);
-  transition: 500ms;
+  transition: 300ms;
   transform: scale(1.1);
 }
 
@@ -235,16 +235,18 @@ tr:nth-child(even) {
     left: 0;
     display: none;
     z-index: 2;
+    background-color: var(--primary-text);
   }
 
   .link-item {
-    height: 3.5rem;
+    height: 3rem;
+    margin: 0;
     padding: 0.5rem;
   }
 
   .content-box {
     width: 90%;
-    margin: 12rem 0.5rem 0.5rem;
+    margin: 10rem 1rem 0.5rem;
     padding: 1rem;
   }
 
