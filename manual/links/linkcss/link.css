@@ -226,21 +226,20 @@ tr:nth-child(even) {
   }
 
   .links {
-    width: 100%;
     margin: 0;
+    width: 100%;    
     padding: 0.5rem;
     text-align: center;
     position: absolute;
     top: 3.3rem;
-    left: 0;
-    display: none;
-    z-index: 2;
+    left: 0;     
     background-color: var(--primary-text);
+    z-index: 2;
+    display: none;
   }
 
-  .link-item {
-    height: 3rem;
-    margin: 0;
+  .link-item {    
+    margin: 0.2rem;
     padding: 0.5rem;
   }
 
