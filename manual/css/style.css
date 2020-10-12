@@ -26,16 +26,32 @@ body {
 }
 
 .container {
-  padding: 1rem;
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: auto;
 }
 
 .related-links {
-  margin: 1rem;
+  width: 100%;
   padding: 1rem;
   justify-self: center;
+  color: var(--white-color);
+  background-color: var(--bg-color);
+}
+
+.hamburger {
+  margin: 0;
+  padding: 0.5rem 1rem;
+  outline: none;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.title {
+  margin: 1rem 0.5rem;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 400;
 }
 
 .links {
@@ -43,30 +59,24 @@ body {
 }
 
 .links a {
-  color: var(--primary-text);
   text-decoration: none;
 }
 
-.title {
-  margin: 0.5rem;
-  padding: 0.5rem;
-  font-size: 1rem;
-  font-weight: 400;
+.links:hover {
+  margin: 1rem;
+  border-radius: 5px;
+  background-color: var(--secondary-text);
+  color: var(--white-color);
+  transition: 200ms;
+  transform: scale(1.1);
 }
 
 .link-item {
   padding: 0.5rem 1rem;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 400;
-}
-
-.link-item:hover {
-  border-radius: 5px;
-  background-color: var(--secondary-text);
   color: var(--white-color);
-  transition: 500ms;
-  transform: scale(1.1);
 }
 
 .search-section {
@@ -199,7 +209,12 @@ body {
 }
 
 .show-item {
-  display: block;
+  display: block !important;
+}
+
+.show-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .hide-item {
@@ -208,23 +223,20 @@ body {
 
 @media (max-width: 768px) {
   .container {
-    padding: 0;
     grid-template-columns: 1fr;
     position: relative;
   }
 
   .related-links {
+    width: 100%;
     margin: 0;
+    padding: 0.5rem;
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
-    padding: 0.5rem;
-    font-size: 0.8rem;
-    font-weight: 500;
-    display: flex;
     color: var(--white-color);
     background-color: var(--primary-text);
+    display: flex;
+    justify-content: space-between;
   }
 
   .related-links:hover {
@@ -237,29 +249,32 @@ body {
     padding: 0.5rem 1rem;
   }
 
+  .hamburger {
+    visibility: visible;
+  }
+
   .links {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
+    text-align: center;
+    position: absolute;
+    top: 3.3rem;
+    left: 0;
+    display: none;
+    z-index: 2;
+  }
+
+  .links:hover {
+    margin: 0;
   }
 
   .link-item {
+    padding: 1rem;
     color: var(--white-color);
     background-color: var(--primary-text);
-  }
-
-  .link-item:hover {
-    pointer-events: none;
-    border-radius: 0;
-    background-color: var(--primary-text);
-    color: var(--white-color);
-    transition: none;
-    transform: none;
   }
 
   .search-section {
-    margin: 12rem 0.5rem 0.5rem;
+    margin: 5rem 0.5rem 0.5rem;
     padding: 0.5rem;
   }
   .search-form {
