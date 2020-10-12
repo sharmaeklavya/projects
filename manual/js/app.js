@@ -5,7 +5,9 @@ import {tfManual} from './data.js';
 const topics = document.querySelector(".topics");
 const form = document.querySelector(".search-form");
 const navBtns = document.querySelectorAll(".nav-btn");
-
+const ham = document.querySelector('.hamburger')
+const links = document.querySelector('.links')
+const body = document.querySelector('body')
 // functions loading
 displayQNS(tfManual);
 filterQNS();
@@ -105,3 +107,9 @@ form.addEventListener('input', (e)=> {
   }
   })
 }
+
+//event listener for hamburger menu
+ham.addEventListener('click', ()=> {
+  links.classList.toggle('show-grid') 
+  
+})
