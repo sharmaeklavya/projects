@@ -91,6 +91,8 @@ const navBtns = document.querySelectorAll('.link-item')
 const content = document.querySelectorAll('.content')
 const tfspeech = document.getElementById('speech')
 const listTable = document.querySelector('.listed')
+const hamBtn = document.querySelector('.hamburger')
+const links = document.querySelector('.links')
 
 // function default content as page loads
 const onLoad = () =>  tfspeech.classList.add('show-item');
@@ -113,6 +115,10 @@ navBtns.forEach(btn => {
         })
     
     })
+})
+
+hamBtn.addEventListener('click', () => {
+    links.classList.toggle('show-grid')
 })
 
 // function to display faculty list
