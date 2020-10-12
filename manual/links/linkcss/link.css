@@ -58,7 +58,7 @@ body {
 }
 
 .links {
-  margin: 0;
+  margin: 0 1rem;
   padding: 0;
   list-style-type: none;
 }
@@ -70,7 +70,7 @@ body {
 
 .link-item {
   margin: 0.5rem;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   cursor: pointer;
   font-size: 1rem;
   font-weight: 400;
@@ -227,18 +227,18 @@ tr:nth-child(even) {
 
   .links {
     margin: 0;
-    width: 100%;    
+    width: 100%;
     padding: 0.5rem;
     text-align: center;
     position: absolute;
     top: 3.3rem;
-    left: 0;     
+    left: 0;
     background-color: var(--primary-text);
     z-index: 2;
     display: none;
   }
 
-  .link-item {    
+  .link-item {
     margin: 0.2rem;
     padding: 0.5rem;
   }
