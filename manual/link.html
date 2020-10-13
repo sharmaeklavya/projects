@@ -9,8 +9,10 @@
 </head>
 <body>
     <div class="container">
+
+        <!-- page navigation links  -->
         <aside class="related-links">
-            <p class="title">Page Navigation</p>           
+            <p class="page-nav">Page Navigation</p>           
             <button class="hamburger">&#9776;</button>
             <ul class="links">                
                 <a href="#"><li class="link-item" data-id="speech" >TF Speech Script</li></a>
@@ -18,153 +20,192 @@
                 <a href="#"><li class="link-item" data-id="studio">Home Studio Set up</li></a>                
                 <a href="#"><li class="link-item" data-id="fcontacts">Faculty Contacts</li></a>
                 <a href="#"><li class="link-item" data-id="econtacts">Emergency Contacts</li></a>            
-                <button class="home link-item"><a href="index.html" target="_blank">Go Back to Home</a></button>
+                <button class="home-button link-item"><a href="index.html" target="_blank">Go Back to Home</a></button>
             </ul>
           </aside>
+
+          <!-- main section starts here -->
             <main class="content-box">
-              <div class="content" id="speech">
-                <h1>Suggested Script for Teaching Facilitators</h1>
-                  <h2>Step 1</h2>
-                  <p><strong>Ask:</strong> "Hello professor. I'm [first name] your Teaching Facilitator. How can I help?"</p>
-                  <h2>Step 2</h2>
-                  <p><strong>Listen:</strong> During the explanation of the issue, check for understanding of the basic issue. "To be sure I understand, you are unable to, is that right?"</p>
-                    <p>Ask the professor to share screen with you. "Could you please share your UCommons/ Whiteboard [wherever the problem is] with me?"</p>
-                    <p>Ask follow-up questions that require statements of observable facts. Examples:</p>
-                    <ul>
-                        <li>"What do you see when you click that?" NOT "What happens if you click that?"</li>
-                        <li>"Did you click the 'Join Zoom' button?" NOT “How did you get into Zoom?"</li>
-                        <li>"What did the error message say?" NOT “What error message did you get?"</li>
-                        <li>"Do you see the blue 'Live Lecture' button now?" NOT "Are you on the home page?"</li>
-                        <li>"What Lesson Number is showing on your screen?" NOT "Which lesson are you joining?"</li>
-                    </ul>       
-                    <h2>Step 3</h2>
-                    <p><strong>Plan:</strong> State out loud exactly what you are going to do. Okay, I am going to...</p>                    
-                    <ul>
-                        <li>"step away for just a moment to see if I can find a solution. Is that okay with you?"</li>
-                            <li>"ask you to close and reopen Zoom, then click Join Zoom again."</li>
-                            <li>If you are leaving to research or escalate, follow the [problem escalation procedure]</li>
+
+                <!-- TF Speech section  -->
+              <article class="content" id="speech">
+                <h1 class="title">Suggested Script for Teaching Facilitators</h1>
+
+                 <!-- step one  -->
+                  <h2 class="sub-title">Step 1</h2>
+                  <p class="para"><strong>Ask: </strong>"Hello professor. I'm [first name] your Teaching Facilitator. How can I help?"</p>
+
+                  <!-- step two  -->
+                  <h2 class="sub-title">Step 2</h2>
+                  <p class="para"><strong>Listen:</strong> During the explanation of the issue, check for understanding of the basic issue. "To be sure I understand, you are unable to, is that right?"</p>
+                    <p class="para">Ask the professor to share screen with you. "Could you please share your UCommons/ Whiteboard [wherever the problem is] with me?"</p>
+                    <p class="para">Ask follow-up questions that require statements of observable facts. Examples:</p>
+                    <ul class="bullets">
+                        <li class="bullet-item">"What do you see when you click that?" NOT "What happens if you click that?"</li>
+                        <li class="bullet-item">"Did you click the 'Join Zoom' button?" NOT “How did you get into Zoom?"</li>
+                        <li class="bullet-item">"What did the error message say?" NOT “What error message did you get?"</li>
+                        <li class="bullet-item">"Do you see the blue 'Live Lecture' button now?" NOT "Are you on the home page?"</li>
+                        <li class="bullet-item">"What Lesson Number is showing on your screen?" NOT "Which lesson are you joining?"</li>
                     </ul>
-                    <h2>Step 4</h2>
-                    <p><strong>Solved: </strong> When able to resolve: Confirm that the issue is resolved. "Did that help?"</p>                    
-                    <p>Always close with:</p>
-                    <ul>
-                        <li>"Is there anything else I can do?"</li>
-                        <li>If no: "Great! Thank you."</li>
-                        <li>if yes: "How can I help?"</li>                        
+                    
+                    <!-- step three  -->
+                    <h2 class="sub-title">Step 3</h2>
+                    <p class="para"><strong>Plan:</strong> State out loud exactly what you are going to do. Okay, I am going to...</p>                    
+                    <ul class="bullets">
+                        <li class="bullet-item">"step away for just a moment to see if I can find a solution. Is that okay with you?"</li>
+                            <li class="bullet-item">"ask you to close and reopen Zoom, then click Join Zoom again."</li>
+                            <li class="bullet-item">If you are leaving to research or escalate, follow the [problem escalation procedure]</li>
                     </ul>
-                    <p>Complete your notes in slack: reply in the thread e.g. "Prof can't see students. Solved."</p>
-                    <p><strong>Unsolved: </strong>When unable to resolve: Confirm that the issue cannot be resolved during the Live Lecture.</p>                    
-                    <p>"Unfortunately, this is not something we can resolve during class. I will escalate this and we will resolve this as soon as we can."</p>
-                    <h2>Step 5</h2>
-                    <p><strong>If you need to escalate:</strong></p>
-                    <p><Strong>Ask the Instructor: </Strong>if you can take a moment to research the problem. "Would it be all right if I take a few moments to research this?"</p>
-                    <p>Immediately click on the information icon at the top left corner of the zoom meeting window.
-                    <a href="images/link/zoommeetinglink.jpg" data-lightbox="mygallery"><img src="images/link/zoommeetinglink.jpg" alt="zoomURL"></a>
-                    </p>                        
-                    <p>Click "Copy Link" to copy the Zoom url with password to your clipboard</p>                    
-                    <p>Stay in the Zoom meeting on Mute with camera off</p>
-                    <p>Look through this and other documentation carefully, using keyword search.</p>
-                    <p>If you cannot find a solution within one minute: </p>
-                    <ol type="a">
-                        <li>Tag a TF Manager in SLACK and add a note about the issue.</li>
-                        <li>Paste the Zoom link you copied</li>
-                        <li>Inform instructor that help will arrive shortly</li>
-                        <li>Stay in the Zoom meeting until help arrives and the resolution is complete.</li>
-                        <li>After the issue is resolved and the manager leaves, thank the instructor for their patience and ask if there is anything else you can do.</li>
-                    </ol>
-              </div>
-              <div class="content" id="studio">
-                <h1>Procedures to set up Home Studio</h1>
-                <p>Home Studio is the screen where instructors are able to see students who have joined the live lecture. The students will always show up in the same spot. When instructors use lecture model on UCOMMONS, the screen they see will mimic HomeStudio. When they click on a student on through UCommons, the student's video will be full screen on the HomeStudio screen as well.</p>
-                <p><strong>Procedures:</strong></p>
-                <ul>
-                    <li><strong>Step 1: </strong>Login LogMeIn and director.shorelight.com. Director will show which HomeStudios are to be used today.</li>
-                    <li><strong>Step 2: </strong>Go to LogMeIn and find that Home Studio. Enter computer access code and login. The screen will look like the following:
-                    <a href="images/link/logmein.jpg" data-lightbox="mygallery"><img src="images/link/logmein.jpg" alt="logmein"></a>
-                    </li>
-                    <li><strong>Step 3: </strong>Remote control the Home Studio by swiping up and typing in password.
-                   <a href="images/link/homestudio.jpg" data-lightbox="mygallery"><img src="images/link/homestudio.jpg" alt="homestudio"></a>
-                    </li>
-                    <li><strong>Step 4: </strong>Go to start => settings => system => sound => manage sound devices. Make sure that all of these are disabled. (e.g. speaker, microphone)</li>
-                    <li><strong>Step 5: </strong>Go back to Director and start the Home Studio 60 to 90 minutes before the lecture. (you can ignore the error for sound and microphone disabled)</li>
-                    <li><strong>Step 6: </strong>Unless swamped by other calls, pop-back in on lessons to see if the students have populated the HomeStudio screen, thus confirming accurate launch.</li>
-                    <li><strong>Step 7: </strong>When the class is about to finish, go to LogMeIn to check if the meeting is finished. If it has, end the HomeStudio on Director, click disconnect on LogMeIn and close the remote control window.</li>
-                </ul>
-                <h2>Important Notes:</h2>
-                <p>If the Home Studio is turned off but the lecture is starting soon, find the course and contact information of the professor. Text message "Hi This is xxx from shorelight. We are going to launch your Home Studio for your courses shortly. I can see that your system is not turned on. Could you please turn on your system and connect to the internet at least 30 mins before the class so that we can get in and make sure everything is ready. Thank you and have a nice day."</p>
-                <p>If you found the professor is using Home Studio computer when you are trying to launch, use the chat function at the tab bar ("Options" => "chat")
-                 <a href="images/link/hschat.jpg" data-lightbox="mygallery"><img src="images/link/hschat.jpg" alt="hschat"></a>
-                </p>
-                <p>Type in "Hello professor, we are about get ready to launch your Home Studio for your class." See if they could close the windows and let you launch the Home Studio.</p>
-              </div>
-              <div class="content" id="incident">
-                  <h1>Incident Close-out Procedures</h1>
-                  <p>These are the procedures and options for closing out an incident.</p>
-                  <p><strong>Step 1: </strong>Track issues as they develop using the “reply in thread” function of Slack
-                <a href="images/link/slackthread.jpg" data-lightbox="mygallery"> <img src="images/link/slackthread.jpg" alt="slackthread"></a>
-                </p>
-                <p><strong>Step 2: </strong>If the incident is fully resolved, type in the word CLOSED in all caps at the end of the thread, followed by @[Ivanti TF]</p>
-                <ul>
-                    <li>Example: <strong>CLOSED</strong> @johndoe</li>
-                    <li>Eli will designate the TF responsible for entering the information into the Ivanti incident tracking software</li>
-                    <li>The designated Ivanti TF will also need to add the Ivanti incident <i>(reference number can be found in the initial automated request for help entry, see image below):</i> </li>
-                    <li>Basics of the issue</li>
-                    <li>Resolution of the issue</li>
-                    <li>TF name (TF who annotated) <br>Example: Home Studio not connected to web. CLOSED @dylan.smith </li>
-                    <a href="images/link/slackivanti.jpg" data-lightbox="mygallery"> <img src="images/link/slackivanti.jpg" alt="slackivanti"></a>
-                </ul>
-                <p><strong>Step 3: </strong>If the incident is not fully resolved, then before the TF (or TF Manager, if it has been escalated) moves on to any other incident, type the word OPEN in all caps at the end of the thread, followed by @[manager]</p>
-                <ul>
-                    <li>If TF, show the manager | <br> Example: Home Studio not connected to web. OPEN @benpincus</li>
-                    <li>If TF Manager, show to Eli | <br> Example: Home Studio not connected to web. OPEN @benpincus @eli</li>
-                    <li>TF Managers will look for OPEN incidents during the day and, at the end of the day, take other actions as necessary to resolve the issue.</li>
-                </ul>
-                <p><strong>Step 4: </strong>If the incident includes a component that needs resolution elsewhere, type the word HANDOFF in all caps at the end of the thread, followed by to whom it was sent:</p>
-                <ul>
-                    <li>Example: Instructor cannot find handout. HANDOFF @victoria rath (on-live lecture Canvas/UCommons issue)</li>
-                    <li>Example: Home Studio keeps crashing. HANDOFF @roman.burdakov (engineering, software issue)</li>
-                    <li>Example: HomeStudio won’t power on. HANDOFF @jeremy.busey (hardware issue)</li>
-                </ul>
-              </div>
-              <div class="content" id="fcontacts">
-                  <h1>Home Studio Faculty Details</h1>          
+
+                    <!-- step four  -->
+                    <h2 class="sub-title">Step 4</h2>
+                    <p class="para"><strong>Solved: </strong> When able to resolve: Confirm that the issue is resolved. "Did that help?"</p>                    
+                    <p class="para">Always close with:</p>
+                    <ul class="bullets">
+                        <li class="bullet-item">"Is there anything else I can do?"</li>
+                        <li class="bullet-item">If no: "Great! Thank you."</li>
+                        <li class="bullet-item">if yes: "How can I help?"</li>                        
+                    </ul>
+                    <p class="para">Complete your notes in slack: reply in the thread e.g. "Prof can't see students. Solved."</p>
+                    <p class="para"><strong>Unsolved: </strong>When unable to resolve: Confirm that the issue cannot be resolved during the Live Lecture.</p>                    
+                    <p class="para">"Unfortunately, this is not something we can resolve during class. I will escalate this and we will resolve this as soon as we can."</p>
+
+                    <!-- step five  -->
+                    <h2 class="sub-title">Step 5</h2>
+                    <p class="para"><strong>If you need to escalate:</strong></p>
+                    <p class="para"><Strong>Ask the Instructor: </Strong>if you can take a moment to research the problem. "Would it be all right if I take a few moments to research this?"</p>
+                    <ul class="bullets">
+                        <li class="bullet-item">
+                            Immediately click on the information icon at the top left corner of the zoom meeting window.
+                            <a href="images/link/zoommeetinglink.jpg" data-lightbox="mygallery"><img src="images/link/zoommeetinglink.jpg" alt="zoomURL"></a>
+                        </li>
+                        <li class="bullet-item">
+                            Click "Copy Link" to copy the Zoom url with password to your clipboard
+                        </li>
+                        <li class="bullet-item">
+                            Stay in the Zoom meeting on Mute with camera off
+                        </li>
+                        <li class="bullet-item">
+                            Look through this and other documentation carefully, using keyword search.
+                        </li>
+                        <li class="bullet-item">
+                            If you cannot find a solution within one minute: 
+                            <ol type="a" class="bullets">
+                                <li class="bullet-item">Tag a TF Manager in SLACK and add a note about the issue.</li>
+                                <li class="bullet-item">Paste the Zoom link you copied</li>
+                                <li class="bullet-item">Inform instructor that help will arrive shortly</li>
+                                <li class="bullet-item">Stay in the Zoom meeting until help arrives and the resolution is complete.</li>
+                                 <li class="bullet-item">After the issue is resolved and the manager leaves, thank the instructor for their patience and ask if there is anything else you can do.</li>
+                                </ol>
+                            </li>                     
+                    </ul>
+                </article>
+
+                <!-- Home Studio Section  -->
+                <article class="content" id="studio">
+                    <h1 class="title">Procedures to set up Home Studio</h1>
+                    <p class="para">Home Studio is the screen where instructors are able to see students who have joined the live lecture. The students will always show up in the same spot. When instructors use lecture model on UCOMMONS, the screen they see will mimic HomeStudio. When they click on a student on through UCommons, the student's video will be full screen on the HomeStudio screen as well.</p>
+                    <p class="para"><strong>Procedures:</strong></p>
+                    <ul class="bullets">
+                        <li class="bullet-item"><strong>Step 1: </strong>Login LogMeIn and director.shorelight.com. Director will show which HomeStudios are to be used today.</li>
+                        <li class="bullet-item"><strong>Step 2: </strong>Go to LogMeIn and find that Home Studio. Enter computer access code and login. The screen will look like the following:
+                            <a href="images/link/logmein.jpg" data-lightbox="mygallery"><img src="images/link/logmein.jpg" alt="logmein"></a>
+                        </li>
+                        <li class="bullet-item"><strong>Step 3: </strong>Remote control the Home Studio by swiping up and typing in password.
+                            <a href="images/link/homestudio.jpg" data-lightbox="mygallery"><img src="images/link/homestudio.jpg" alt="homestudio"></a>
+                        </li>
+                        <li class="bullet-item"><strong>Step 4: </strong>Go to start => settings => system => sound => manage sound devices. Make sure that all of these are disabled. (e.g. speaker, microphone)</li>
+                        <li class="bullet-item"><strong>Step 5: </strong>Go back to Director and start the Home Studio 60 to 90 minutes before the lecture. (you can ignore the error for sound and microphone disabled)</li>
+                        <li class="bullet-item"><strong>Step 6: </strong>Unless swamped by other calls, pop-back in on lessons to see if the students have populated the HomeStudio screen, thus confirming accurate launch.</li>
+                        <li class="bullet-item"><strong>Step 7: </strong>When the class is about to finish, go to LogMeIn to check if the meeting is finished. If it has, end the HomeStudio on Director, click disconnect on LogMeIn and close the remote control window.</li>
+                    </ul>
+                    <h2 class="sub-title">Important Notes:</h2>
+                    <p class="para">If the Home Studio is turned off but the lecture is starting soon, find the course and contact information of the professor. Text message "Hi This is xxx from shorelight. We are going to launch your Home Studio for your courses shortly. I can see that your system is not turned on. Could you please turn on your system and connect to the internet at least 30 mins before the class so that we can get in and make sure everything is ready. Thank you and have a nice day."</p>
+                    <p class="para">If you found the professor is using Home Studio computer when you are trying to launch, use the chat function at the tab bar ("Options" => "chat")
+                        <a href="images/link/hschat.jpg" data-lightbox="mygallery"><img src="images/link/hschat.jpg" alt="hschat"></a>
+                    </p>
+                    <p class="para">Type in "Hello professor, we are about get ready to launch your Home Studio for your class." See if they could close the windows and let you launch the Home Studio.</p>
+                </article>
+
+               <!-- incident close out section    -->
+                <article class="content" id="incident">
+                    <h1 class="title">Incident Close-out Procedures</h1>
+                    <p class="para">These are the procedures and options for closing out an incident.</p>
+                    <p class="para"><strong>Step 1: </strong>Track issues as they develop using the “reply in thread” function of Slack
+                        <a href="images/link/slackthread.jpg" data-lightbox="mygallery"> <img src="images/link/slackthread.jpg" alt="slackthread"></a>
+                    </p>
+                    <p class="para"><strong>Step 2: </strong>If the incident is fully resolved, type in the word CLOSED in all caps at the end of the thread, followed by @[Ivanti TF]</p>
+                    <ul class="bullets">
+                        <li class="bullet-item">Example: <strong>CLOSED</strong> @johndoe</li>
+                        <li class="bullet-item">Eli will designate the TF responsible for entering the information into the Ivanti incident tracking software</li>
+                        <li class="bullet-item">The designated Ivanti TF will also need to add the Ivanti incident <i>(reference number can be found in the initial automated request for help entry, see image below):</i> </li>
+                        <li class="bullet-item">Basics of the issue</li>
+                        <li class="bullet-item">Resolution of the issue</li>
+                        <li class="bullet-item">TF name (TF who annotated) <br>Example: Home Studio not connected to web. CLOSED @dylan.smith 
+                            <a href="images/link/slackivanti.jpg" data-lightbox="mygallery"> <img src="images/link/slackivanti.jpg" alt="slackivanti"></a>
+                        </li>
+                    </ul>
+                    <p class="para"><strong>Step 3: </strong>If the incident is not fully resolved, then before the TF (or TF Manager, if it has been escalated) moves on to any other incident, type the word OPEN in all caps at the end of the thread, followed by @[manager]</p>
+                    <ul class="bullets">
+                        <li class="bullet-item">If TF, show the manager | <br> Example: Home Studio not connected to web. OPEN @benpincus</li>
+                        <li class="bullet-item">If TF Manager, show to Eli | <br> Example: Home Studio not connected to web. OPEN @benpincus @eli</li>
+                        <li class="bullet-item">TF Managers will look for OPEN incidents during the day and, at the end of the day, take other actions as necessary to resolve the issue.</li>
+                    </ul>
+                    <p class="para"><strong>Step 4: </strong>If the incident includes a component that needs resolution elsewhere, type the word HANDOFF in all caps at the end of the thread, followed by to whom it was sent:</p>
+                    <ul class="bullets">
+                        <li class="bullet-item">Example: Instructor cannot find handout. HANDOFF @victoria rath (on-live lecture Canvas/UCommons issue)</li>
+                        <li class="bullet-item">Example: Home Studio keeps crashing. HANDOFF @roman.burdakov (engineering, software issue)</li>
+                        <li class="bullet-item">Example: HomeStudio won’t power on. HANDOFF @jeremy.busey (hardware issue)</li>
+                    </ul>
+            </article>
+
+            <!-- faculty contacts start here -->
+              <article class="content" id="fcontacts">
+                  <h1 class="title">Home Studio Faculty Details</h1>          
                   <table class="listed"></table>
-              </div>
-              <div class="content" id="econtacts">
-                <h1>Emergency Contacts</h1>                 
-                <h2>Director:</h2>                
-                <p><strong>Eli Zvi</strong>
+              </article>
+
+
+              <!-- Emergency contacts start here -->
+              <article class="content" id="econtacts">
+                <h1 class="title">Emergency Contacts</h1>                 
+                <h2>Director:</h2>
+                <p class="para"><strong>Eli Zvi</strong>
                     <br/ > Slack: <a href="https://www.slack.com" target="_blank">@Eli</a>
                     <br/ > Email: <a href="mailto:eli.zvi@shorelight.com">eli.zvi@shorelight.com</a> 
                     <br/ > Mobile: <a href="tel:8082037315">(808)-203-7315</a>
                 </p>
                 <hr>
-                <h2>TF Managers: </h2>
-                <p> <strong>Ben Pincus</strong>                    
+                <h2 >TF Managers: </h2>
+                <p class="para"> <strong>Ben Pincus</strong>                    
                     <br/ > Slack: <a href="https://www.slack.com" target="_blank">@ben.pincus</a>
                     <br/ > Email: <a href="mailto:ben.pincus@umassamherstglobal.org">ben.pincus@umassamherstglobal.org</a> 
                     <br/ > Mobile: <a href="tel:7813664530">(781)-366-4530</a>
                 </p>
-                <p><strong>Alec Hills</strong>
+                <p class="para"><strong>Alec Hills</strong>
                     <br/ > Slack: <a href="https://www.slack.com" target="_blank">@alec.hills</a>
                     <br/ > Email: <a href="mailto:alechills@umassamherstglobal.org">alechills@umassamherstglobal.org</a>
                     <br/ > Mobile: <a href="tel:4136685616">(413)-668-5616</a>
                 </p>
-                <p><strong>Dylan Smith</strong>
+                <p class="para"><strong>Dylan Smith</strong>
                     <br/ > Slack: <a href="https://www.slack.com" target="_blank">@dylan.smith</a>
                     <br/ > Email: <a href="mailto:dylan.smith@umassamherstglobal.org">dylan.smith@umassamherstglobal.org</a>
                     <br/ > Mobile: <a href="tel:5084391907">(508)-439-1907</a> 
                 </p>
                 <hr>
-                <h2>TF Manual: </h2>
-                <p><strong>Fail Li </strong>
+                <h2 >TF Manual: </h2>
+                <p class="para"><strong>Fail Li </strong>
                     <br/ > Slack: <a href="https://www.slack.com">@faith.li</a>
                     <br/ > Email: <a href="mailto:faith.li@shorelight.com">faith.li@shorelight.com</a> 
                 </p>
-            </div>
-              
+              </article>              
             </main>
+
+            <!-- main ends here -->
     </div>
+    <!-- container ends here -->
+
+    <!-- JavaScripts  -->
     <script src="js/link/link.js"></script>
     <script src="/js/lightbox-plus-jquery.min.js"></script>
 </body>

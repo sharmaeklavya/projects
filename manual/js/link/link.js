@@ -104,7 +104,7 @@ navBtns.forEach(btn => {
         const btnTarget = e.target.dataset.id
         content.forEach(c => {
             if(btnTarget === 'home'){
-                onLoad()        
+                onLoad()   
             }
             else if(c.id === btnTarget){
                 c.classList.add('show-item')

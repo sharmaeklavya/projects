@@ -33,12 +33,7 @@ body {
   grid-template-rows: auto;
 }
 
-.related-links {
-  width: 100%;
-  padding: 1rem;
-  justify-self: center;
-}
-
+/* small icon when viewed on mobile devices */
 .hamburger {
   margin: 0;
   padding: 0.5rem 1rem;
@@ -47,7 +42,15 @@ body {
   visibility: hidden;
 }
 
-.title {
+/* page navigation links  */
+
+.related-links {
+  width: 100%;
+  padding: 1rem;
+  justify-self: center;
+}
+
+.page-nav {
   margin: 1rem 0.5rem;
   padding: 0.5rem;
   font-size: 1rem;
@@ -81,7 +84,7 @@ body {
   transform: scale(1.1);
 }
 
-.home {
+.home-button {
   margin-left: 1rem;
   border-radius: 5px;
   outline: none;
@@ -89,10 +92,12 @@ body {
   background-color: var(--secondary-text);
 }
 
-.home a {
+.home-button a {
   text-decoration: none;
   color: var(--white-color);
 }
+
+/* main content style  */
 
 .content-box {
   width: 90%;
@@ -107,7 +112,7 @@ body {
   background-color: var(--white-color);
 }
 
-h1 {
+.title {
   margin: 0.5rem;
   padding: 0.5rem;
   font-size: 1.3rem;
@@ -115,7 +120,7 @@ h1 {
   text-align: center;
 }
 
-h2 {
+.sub-title {
   margin: 0.5rem;
   padding: 0.5rem;
   font-size: 1.1rem;
@@ -123,54 +128,48 @@ h2 {
   text-align: center;
 }
 
-#econtacts h2 {
-  text-align: left;
+.para {
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
-#econtacts a {
+.para a {
   text-decoration: none;
   color: var(--primary-text);
 }
 
-h3 {
-  margin-left: 0.5rem;
-  padding-left: 0.5rem;
-  font-size: 1rem;
-  font-weight: 700;
-}
-
-p {
+.bullets {
   margin: 0.5rem;
-  padding: 0.5rem;
-  font-size: 1rem;
-  font-weight: 400;
+  padding: 0.5rem 1rem;
 }
 
-ul,
-ol {
-  margin: 0.5rem;
-  padding: 0.5rem;
-  font-size: 1rem;
-  font-weight: 400;
-}
-
-ul li,
-ol li {
+.bullet-item {
   margin: 0.5rem 1.5rem;
-}
-
-img {
-  width: 80%;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 #fcontacts {
   overflow-x: scroll;
 }
 
-table {
-  table-layout: fixed;
-  width: 150%;
+#econtacts h2 {
+  margin: 0.2rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: left;
 }
+
+img {
+  width: 90%;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+/* for faculty contact table  */
 
 td,
 th {
@@ -179,37 +178,14 @@ th {
   font-size: 1rem;
   font-weight: 400;
   overflow-wrap: break-word;
-
   border: 1px solid var(--border-color);
-}
-
-th:nth-child(odd) {
-  width: 10%;
-}
-
-th:nth-child(1) {
-  width: 6%;
-}
-
-th:nth-child(2) {
-  width: 10%;
-}
-
-th:nth-child(4) {
-  width: 15%;
-}
-
-th:nth-child(6) {
-  width: 14%;
-}
-
-th:nth-child(8) {
-  width: 8%;
 }
 
 tr:nth-child(even) {
   background-color: var(--border-color);
 }
+
+/* classes for javascript */
 
 .content {
   display: none;
@@ -228,6 +204,8 @@ tr:nth-child(even) {
   display: none;
 }
 
+/* media queries for different device view */
+
 @media (max-width: 768px) {
   .container {
     grid-template-columns: 1fr;
@@ -244,7 +222,7 @@ tr:nth-child(even) {
     justify-content: space-between;
   }
 
-  .title {
+  .page-nav {
     margin: 0;
     padding: 0.5rem 1rem;
   }
@@ -274,9 +252,5 @@ tr:nth-child(even) {
   .content-box {
     margin: 10rem 1rem 0.5rem;
     padding: 1rem;
-  }
-
-  table {
-    width: 200%;
   }
 }
