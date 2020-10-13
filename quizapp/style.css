@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  width: 30rem;
+  width: 30%;
   margin: 0 auto;
   padding: 1rem;
   background-color: #fff;
@@ -89,4 +89,22 @@ body {
 .results h1 {
   font-size: 1rem;
   text-align: center;
+}
+
+@media (max-width: 1200px) and (min-width: 800px) {
+  .container {
+    width: 40%;
+  }
+}
+
+@media (max-width: 799px) {
+  .container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
 }
