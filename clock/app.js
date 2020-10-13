@@ -8,11 +8,11 @@ function getTime() {
   const time = new Date();
 
   // get hours
-  const hours = time.getUTCHours() + 5;
+  const hours = time.getHours();
   // get minutes
-  const mins = time.getUTCMinutes() + 30;
+  const mins = time.getMinutes();
   // get seconds
-  const secs = time.getUTCSeconds();
+  const secs = time.getSeconds();
 
   // create array for value
   const value = [hours, mins, secs];
