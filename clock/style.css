@@ -11,14 +11,13 @@ body {
   font-size: 16px;
   font-weight: 500;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: #edf2f7
+  background-color: #edf2f7;
   overflow: hidden;
 }
 
 .container {
   height: 100%;
   display: flex;
-
   align-items: center;
   flex-direction: column;
 }
@@ -55,7 +54,7 @@ p {
 }
 
 span {
-  color: #9b2c2c
+  color: #9b2c2c;
 }
 
 .hours {
@@ -63,9 +62,15 @@ span {
 }
 
 .mins {
-  color: #48bb78
+  color: #48bb78;
 }
 
 .secs {
   color: #38b2ac;
+}
+
+@media (max-width: 550px) {
+  .clock-container {
+    flex-direction: column;
+  }
 }
