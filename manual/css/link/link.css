@@ -151,14 +151,14 @@ body {
 }
 
 #fcontacts {
-  overflow-x: scroll;
+  overflow: auto;
 }
 
 #econtacts h2 {
   margin: 0.2rem;
-  font-size: 1.3rem;
+  padding: 0.2rem;
+  font-size: 1.1rem;
   font-weight: 700;
-  text-align: left;
 }
 
 img {
@@ -166,6 +166,7 @@ img {
 }
 
 hr {
+  width: 90%;
   margin: 2rem 0;
 }
 
@@ -256,6 +257,14 @@ tr:nth-child(even) {
 
   table {
     table-layout: fixed;
-    width: 220%;
+    width: 250%;
+  }
+
+  th:nth-child(1) {
+    width: 8%;
+  }
+
+  th:nth-child(4) {
+    width: 25%;
   }
 }
