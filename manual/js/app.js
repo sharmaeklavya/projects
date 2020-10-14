@@ -1,13 +1,15 @@
 // importing data from other file
 import {tfManual} from './data.js';
 
+
 // class selectors
 const topics = document.querySelector(".topics");
 const form = document.querySelector(".search-form");
 const navBtns = document.querySelectorAll(".nav-btn");
 const ham = document.querySelector('.hamburger')
 const links = document.querySelector('.links')
-const body = document.querySelector('body')
+
+
 // functions loading
 displayQNS(tfManual);
 filterQNS();
@@ -113,3 +115,4 @@ ham.addEventListener('click', ()=> {
   links.classList.toggle('show-grid') 
   
 })
+

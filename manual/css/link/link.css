@@ -253,4 +253,9 @@ tr:nth-child(even) {
     margin: 10rem 1rem 0.5rem;
     padding: 1rem;
   }
+
+  table {
+    table-layout: fixed;
+    width: 220%;
+  }
 }

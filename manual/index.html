@@ -8,20 +8,23 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>TF Manual</title>
   </head>
-  <body>      
+  <body>
     <div class="container">
+
+          <!-- TF Material links start here -->
       <aside class="related-links">
         <p class="title">Other TF Material Links</p>
         <button class="hamburger">&#9776;</button>
         <ul class="links">
-        <a href="link.html" target="_blank"><li class="link-item" data-id="speech">TF Speech Script</li></a>
-        <a href="link.html" target="_blank"><li class="link-item" data-id="incident">Incident Close-out</li></a>
-        <a href="link.html" target="_blank"><li class="link-item" data-id="studio">Home Studio Set up</li></a>
-        <a href="link.html" target="_blank"> <li class="link-item" data-id="fcontacts">Faculty Contacts</li></a>
-        <a href="link.html" target="_blank"> <li class="link-item" data-id="econtacts">Emergency Contacts</li></a>
+        <a href="link.html#speech" target="_blank"><li class="link-item" data-id="speech">TF Speech Script</li></a>
+        <a href="link.html#incident" target="_blank"><li class="link-item" data-id="incident">Incident Close-out</li></a>
+        <a href="link.html#studio" target="_blank"><li class="link-item" data-id="studio">Home Studio Set up</li></a>
+        <a href="link.html#fcontacts" target="_blank"> <li class="link-item" data-id="fcontacts">Faculty Contacts</li></a>
+        <a href="link.html#econtacts" target="_blank"> <li class="link-item" data-id="econtacts">Emergency Contacts</li></a>
         </ul>
       </aside>
-      <!-- related links ends here -->
+  
+      <!-- main section search bar starts here -->
       <main class="search-section">
         <form class="search-form">
         <span class="search-icon">
@@ -34,7 +37,9 @@
             placeholder="Type to begin..." 
           />        
         </form>
-        <!-- form ends here -->
+        <!-- search bar ends here -->
+
+        <!-- navigation bar starts here -->
         <div class="common-issues">
           <nav class="nav-bar">
             <button class="nav-btn" type="button" data-id="all">All</button>
@@ -43,11 +48,16 @@
             <button class="nav-btn" type="button" data-id="zoom">Zoom</button>
             <button class="nav-btn" type="button" data-id="whiteboard">Whiteboard</button>          
           </nav>
+
+          <!-- main content starts here -->
           <div class="topics"></div>
       </div>
-        <!-- common issues ends here -->
+
     </main>
-    <!-- container ends here -->
+    <!-- main container ends here -->
+  </div>
+
+  <!-- javascript  -->
     <script type="module" src="js/app.js"></script>    
     <script src="js/lightbox-plus-jquery.min.js"></script>
   </body>
