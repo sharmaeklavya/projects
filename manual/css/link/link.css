@@ -150,6 +150,16 @@ body {
   font-weight: 400;
 }
 
+img {
+  width: 90%;
+}
+
+hr {
+  width: 90%;
+  margin: 2rem 0;
+}
+
+/* selecting by IDs */
 #fcontacts {
   overflow: auto;
 }
@@ -159,15 +169,6 @@ body {
   padding: 0.2rem;
   font-size: 1.1rem;
   font-weight: 700;
-}
-
-img {
-  width: 90%;
-}
-
-hr {
-  width: 90%;
-  margin: 2rem 0;
 }
 
 /* for faculty contact table  */

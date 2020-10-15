@@ -68,8 +68,3 @@ const details = list.map(f => {
 }
 
 
-
-
-
-
-
