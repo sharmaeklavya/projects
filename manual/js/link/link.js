@@ -1,5 +1,7 @@
 import {facultyList} from './flist.js';
 
+const onLoad = () =>  tfspeech.classList.add('show-item');
+
 // class selectors - buttons
 const linkBtns = document.querySelectorAll('.link-item')
 const content = document.querySelectorAll('.content')
@@ -9,8 +11,8 @@ const hamBtn = document.querySelector('.hamburger')
 const links = document.querySelector('.links')
 
 // function default content as page loads
-const onLoad = () =>  tfspeech.classList.add('show-item');
 onLoad();
+displayFaculty(facultyList)
 
 // Event Listner
 linkBtns.forEach(btn => {
@@ -64,7 +66,7 @@ const details = list.map(f => {
 
     listTable.innerHTML = `${title} ${details}`
 }
-displayFaculty(facultyList)
+
 
 
 
