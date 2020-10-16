@@ -11,22 +11,22 @@ const links = document.querySelector('.links')
 const onLoad = () =>  tfspeech.classList.add('show-item');
 
 // function default content as page loads
-onLoad();
+
 displayFaculty()
 
 // Event Listners
 linkBtns.forEach(btn => {
     btn.addEventListener('click', (e) => {
         const btnTarget = e.target.dataset.id
-        content.forEach(c => {
+        content.forEach(c => {            
             if(btnTarget === 'home'){
                 onLoad()   
             }
             else if(c.id === btnTarget){
-                c.classList.add('show-item')    
+                c.classList.remove('hide-item')    
             }
-            else{
-                c.classList.remove('show-item')
+            else {
+                c.classList.add('hide-item')
             }
         })
     

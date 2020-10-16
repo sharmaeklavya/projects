@@ -189,10 +189,6 @@ tr:nth-child(even) {
 
 /* classes for javascript */
 
-.content {
-  display: none;
-}
-
 .show-item {
   display: block;
 }
