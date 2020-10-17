@@ -170,7 +170,7 @@ export const tfManual = [
     },
     {
       id: 19,
-      question: `Breakout rooms – not urgent issue (e.g. professor say ok, I do not have to use it for this lecture)?`,
+      question: `Breakout rooms – not urgent issue <br /> (e.g. professor say ok, I do not have to use it for this lecture)?`,
       answer: `TFs can provide resources and links to Zoom basics (1-12 list) 
       <br /> https://support.zoom.us/hc/en-us/articles/206476093-Getting-Started-with-Video-Breakout-Rooms`,
       img: [],
@@ -178,8 +178,8 @@ export const tfManual = [
     },
     {
       id: 20,
-      question: `When UCommons is maximized, there is no access to the help button or some other resources located at the periphery of the screen; sometimes it's also not possible to scroll to see the entire frame. Is this something that can be fixed?`,
-      answer: `Let the instructor know they can reduce the size of the Chrome window by holding down the Control button (or the Command button for Mac) and hitting the minus sign. Ctrl – will zoom out so you can see more of your screen. 
+      question: `When UCommons is maximized, there is no access to the help button or some other resources. <br /> Is this something that can be fixed?`,
+      answer: `There may be no access to the help button or some other resources located at the periphery of the screen; sometimes it's also not possible to scroll to see the entire frame. In such case, you can let the instructor know they can reduce the size of the Chrome window by holding down the Control button (or the Command button for Mac) and hitting the minus sign. Ctrl – will zoom out so you can see more of your screen. 
       <br /> <br />They can also go to the Chrome menu and choose Zoom In or Zoom out.`,
       img: [],
       category: "ucommons",
@@ -261,7 +261,7 @@ export const tfManual = [
     },
     {
       id: 30,
-      question: `Home Studio is on sleep mode or Home Studio requires a password on Instructor's computer?`,
+      question: `Home Studio is on sleep mode or it requires a password on Instructor's computer?`,
       answer: `Use LogMeIn to go in and unlock it (or escalate to TF responsible for launching by tagging them).
       <br /> <br />-	Navigate to the Windows Settings page and click the "System" Option on the top left of the window.
       <br /> <br />-	Next Select the “Power & Sleep” Option from the list on the left side of the window.
