@@ -166,6 +166,22 @@ body {
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
+.issues-solutions {
+  position: relative;
+}
+
+.category {
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 1px solid var(--secondary-text);
+  background-color: var(--white-color);
+  padding: 0.2rem;
+  position: absolute;
+  top: -0.5rem;
+  right: 0;
+}
+
 .issue-item,
 .question {
   margin-top: 1rem;

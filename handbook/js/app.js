@@ -26,6 +26,7 @@ function displayQNS(manual) {
       <i class="fas fa-plus"></i>
       <i class="fas fa-minus"></i>
     </p>
+    <p class="category">${tf.category}</p>
     <p class="solution-item">
       ${tf.answer}
     </p>
