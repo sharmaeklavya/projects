@@ -1,6 +1,6 @@
 // importing data from other file
-import {tfManual} from './data.js';
-
+import {tfHandbook} from './data.js';
+const tfManual = tfHandbook.sort((a,b) => a.category < b.category ? -1 : 1)  
 
 // class selectors
 const topics = document.querySelector(".topics");
@@ -16,9 +16,8 @@ filterChoice()
 filterQNS();
 
 // function display - questions and answers
-function displayQNS(manual) {
-  const sort = manual.sort((a,b) => a.category < b.category ? -1 : 1)  
-  const manuals = sort
+function displayQNS(manual) {  
+  const manuals = manual
     .map((tf) => {
       return `<div class="issues-solutions">
       <p class="issue-item">

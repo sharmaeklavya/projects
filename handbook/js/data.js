@@ -1,4 +1,4 @@
-export const tfManual = [
+export const tfHandbook = [
     {
       id: 1,
       question: `A student does not have Ucommons set up yet. Can he/she join the lecture?`,
