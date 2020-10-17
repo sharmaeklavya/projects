@@ -173,7 +173,7 @@ body {
 .category {
   font-size: 0.8rem;
   font-weight: 500;
-  border-radius: 5px;
+  border-radius: 2px;
   border: 1px solid var(--secondary-text);
   background-color: var(--white-color);
   padding: 0.2rem;
