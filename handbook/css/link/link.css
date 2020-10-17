@@ -160,11 +160,11 @@ hr {
 }
 
 /* selecting by IDs */
-#fcontacts {
+#faculty {
   overflow: auto;
 }
 
-#econtacts h2 {
+#contacts h2 {
   margin: 0.2rem;
   padding: 0.2rem;
   font-size: 1.1rem;
@@ -188,6 +188,9 @@ tr:nth-child(even) {
 }
 
 /* classes for javascript */
+.content {
+  display: none;
+}
 
 .show-item {
   display: block;
@@ -196,10 +199,6 @@ tr:nth-child(even) {
 .show-grid {
   display: grid !important;
   grid-template-columns: repeat(3, 1fr);
-}
-
-.hide-item {
-  display: none;
 }
 
 /* media queries for different device view */
@@ -248,7 +247,7 @@ tr:nth-child(even) {
   }
 
   .content-box {
-    margin: 10rem 1rem 0.5rem;
+    margin: 12rem 1rem 0.5rem;
     padding: 1rem;
   }
 

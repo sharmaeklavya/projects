@@ -1,42 +1,46 @@
 import {facultyList} from './flist.js';
 
 // class selectors - buttons
-export const linkBtns = document.querySelectorAll('.link-item')
-export const content = document.querySelectorAll('.content')
-const tfspeech = document.getElementById('speech')
+const linkBtns = document.querySelectorAll('.link-item')
+const content = document.querySelectorAll('.content')
+const tfspeech = document.querySelectorAll('.content')[0]
 const table = document.querySelector('.table')
 const hamBtn = document.querySelector('.hamburger')
 const links = document.querySelector('.links')
-
-const onLoad = () =>  tfspeech.classList.add('show-item');
+const hash =  window.location.hash.replace("#","");
 
 // function default content as page loads
-
+const home = () => tfspeech.classList.add('show-item');
 displayFaculty()
+displayContent(hash)
 
-// Event Listners
+// Event Listner for navigating link tabs
 linkBtns.forEach(btn => {
     btn.addEventListener('click', (e) => {
         const btnTarget = e.target.dataset.id
-        content.forEach(c => {            
-            if(btnTarget === 'home'){
-                onLoad()   
-            }
-            else if(c.id === btnTarget){
-                c.classList.remove('hide-item')    
-            }
-            else {
-                c.classList.add('hide-item')
-            }
-        })
-    
+        displayContent(btnTarget)
     })
 })
 
-
+// Event Listner for navigating toggle on mobile device
 hamBtn.addEventListener('click', () => {
     links.classList.toggle('show-grid')
 })
+
+// function to display relevant content on clicking tabs
+function displayContent (input){   
+    content.forEach(c => {        
+        if (input === 'home' || input === ''){
+            home()
+        }
+        else if(c.id === input){
+            c.classList.add('show-item')
+        }
+        else {
+            c.classList.remove('show-item')
+        }
+    })
+}
 
 // function to display faculty list
 function displayFaculty(){
@@ -67,7 +71,3 @@ const details = facultyList.map(f => {
 
     table.innerHTML = `${title} ${details}`
 }
-
-
-
-
