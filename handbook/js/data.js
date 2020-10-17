@@ -162,15 +162,15 @@ export const tfManual = [
     },
     {
       id: 18,
-      question: `Breakout rooms – Pre-assignment?`,
-      answer: `A1: Instructors who wish to pre-assign students to Zoom breakout rooms should make a list of the rooms, and create the rooms manually after Zoom starts (they must “claim host”) but before class starts. Then during the lesson they must take the time to move students into the rooms. Students cannot be pre-assigned to a room before they join Zoom. They must be logged into Zoom already before they can be assigned.      
+      question: `Breakout rooms – Pre-assignment? <br /> how to assign students manually?`,
+      answer: `A1: Instructors who wish to pre-assign students to Zoom breakout rooms should make a list of the rooms, and create the rooms manually after Zoom starts (they must "claim host") but before class starts. Then during the lesson they must take the time to move students into the rooms. Students cannot be pre-assigned to a room before they join Zoom. They must be logged into Zoom already before they can be assigned.
       <br /> <br />Students who do not join from the Zoom downloadable desktop app, but come in through a browser or phone app will not be able to join Zoom. Ask the students to join via the Zoom app.`,
       img: [],
       category: "zoom",
     },
     {
       id: 19,
-      question: `Breakout rooms – no urgent issue? <br /> (e.g. professor say ok, I do not have to use it for this lecture)?`,
+      question: `Breakout rooms – no urgent issue? <br /> (e.g. if instructor says ok, I do not have to use it for this lecture)?`,
       answer: `TFs can provide resources and links to Zoom basics (1-12 list) 
       <br /> https://support.zoom.us/hc/en-us/articles/206476093-Getting-Started-with-Video-Breakout-Rooms`,
       img: [],

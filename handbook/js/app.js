@@ -22,10 +22,10 @@ function displayQNS(manual) {
     .map((tf) => {
       return `<div class="issues-solutions">
       <p class="issue-item">
-      ${tf.question}
-      <i class="fas fa-plus"></i>
-      <i class="fas fa-minus"></i>
-    </p>
+      ${tf.question}      
+        <i class="fas fa-plus"></i>
+        <i class="fas fa-minus"></i>
+      </p>
     <p class="category">${tf.category}</p>
     <p class="solution-item">
       ${tf.answer}

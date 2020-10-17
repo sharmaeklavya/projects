@@ -150,6 +150,11 @@ body {
   font-weight: 400;
 }
 
+.image {
+  margin: 1rem;
+  text-align: center;
+}
+
 img {
   width: 90%;
 }
@@ -160,6 +165,11 @@ hr {
 }
 
 /* selecting by IDs */
+#guide h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
 #faculty {
   overflow: auto;
 }
