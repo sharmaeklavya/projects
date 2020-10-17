@@ -1,16 +1,7 @@
 // importing data from other file
 import {tfHandbook} from './data.js';
-const tfManual = tfHandbook.sort((a,b) => {
-  if (b.category < a.category){
-    return 0;
-  }
-  if (a.category){
-    return -1
-  }
-  if (b.category){
-    return 1
-  }
-})
+const tfManual = tfHandbook.sort((a,b) => b.category < a.category ? 1 : -1)  
+
 // class selectors
 const topics = document.querySelector(".topics");
 const form = document.querySelector(".search-form");
