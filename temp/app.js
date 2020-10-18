@@ -85,69 +85,7 @@ const database = [
       })
       .join("");
     topics.innerHTML = manuals;
-    toggleSolutions();
+
   }
   displayQNS(database);
-  
-  // class selectors
-  const questions = document.querySelectorAll(".issue-item");
-  const answers = document.querySelectorAll(".solution-item");
-  const questionAnswers = document.querySelectorAll(".issues-solutions");
-  
-  //function filter questions
-  function filterCategory(navs) {
-    navs.forEach((btns) => {
-      btns.addEventListener("click", (btn) => {
-        const btnCategory = btn.currentTarget.dataset.id;
-        const itemCategory = database.filter((item) => {
-          if (btnCategory === item.category) {
-            return item.category;
-          }
-        });
-        if (btnCategory === "all") {
-          displayQNS(database);        
-        } else {
-          displayQNS(itemCategory);  
-        }
-      });
-    });
-  }
-  filterCategory(navBtns);
-  
-  // function show hide solutions
-  function toggleSolutions() {
-    questions.forEach((q) => {
-      q.addEventListener("click", (btn) => {
-        const current = btn.currentTarget;
-        current.classList.toggle("item-bg");
-        current.childNodes[1].classList.toggle("hide-item");
-        current.childNodes[3].classList.toggle("show-item");      
-        answers.forEach((a) => {
-          if (current.parentElement === a.parentElement) {
-            a.classList.toggle("show-item");          
-          }
-        });
-      });
-    });
-  }
-  toggleSolutions()
-  
-  
-  // // function search texts
-  // function filteredItems() {
-  //   const value = input.value;
-  //   let paragraph;
-  //   answers.forEach((a) => {
-  //     paragraph = a.textContent;
-  //     const regex = new RegExp(value);
-  //     paragraph.match(regex, "gi");
-  //   });
-  //   topics.innerHTML = `<p class="item">${paragraph} </p>`;
-  // }
-  
-  // // event listerns
-  // form.addEventListener("submit", (e) => {
-  //   e.preventDefault();
-  //   filteredItems();
-  // });
   

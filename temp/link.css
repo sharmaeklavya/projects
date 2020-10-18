@@ -162,13 +162,7 @@ hr {
   margin: 2rem 0;
 }
 
-/* selecting by IDs */
-
 /* classes for javascript */
-
-.content {
-  display: none;
-}
 
 .show-item {
   display: block;
