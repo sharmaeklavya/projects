@@ -1,4 +1,4 @@
-import * as contactList from './list.js'
+const contactList = require('./list.js');
 
 // class selectors - buttons
 const linkBtns = document.querySelectorAll('.link-item')
