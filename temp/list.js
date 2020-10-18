@@ -8,4 +8,4 @@ const contactList =  xlsx.utils.sheet_to_json(ws);
 
 module.exports = contactList;
 
-console.log(contactList)
+

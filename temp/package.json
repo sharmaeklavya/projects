@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "uniq": "^1.0.1",
     "xlsx": "^0.16.8"
   }
 }

@@ -1,14 +1,10 @@
-const contactList = require('./list.js');
+const contactList = require('./list.js')
 
 // class selectors - buttons
-const linkBtns = document.querySelectorAll('.link-item')
 const content = document.querySelectorAll('.content')
 const hamBtn = document.querySelector('.hamburger')
 const links = document.querySelector('.links')
 const hyperBtns = document.querySelectorAll('.hyperlink')
-
-
-// function default content as page loads
 
 // Event Listner
 hyperBtns.forEach(btn => {
@@ -30,8 +26,6 @@ hyperBtns.forEach(btn => {
 hamBtn.addEventListener('click', () => {
     links.classList.toggle('show-grid')
 })
-
-
 
 // function to display faculty list
 function displayContact(){
@@ -61,5 +55,5 @@ function displayContact(){
     
         table.innerHTML = `${title} ${details}`
     }
-
     displayContact()
+
