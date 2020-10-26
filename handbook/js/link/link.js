@@ -8,6 +8,7 @@ const facultyData = document.querySelector('.f-container')
 const hamBtn = document.querySelector('.hamburger')
 const links = document.querySelector('.links')
 const pound =  window.location.hash.replace("#","");
+const form = document.querySelector(".search-form");
 
 // function default content as page loads
 const home = () => tfspeech.classList.add('show-item');
@@ -51,12 +52,12 @@ const details = facultyList.map(tf => {
             <img src="images/avatar.jpg" alt="">
         </div>
         <div class="disc">
-            <h2 class="sub-title">${tf.name} <span class="status"> | ${tf.status} </span> </h2>
-            <p class="para">${tf.address}</p>
-            <p class="para">Phone: ${tf.cell}</p>
-            <p class="para">Email: ${tf.email}</p>
-            <p class="para">Inst: ${tf.institution}</p>                         
-            <p class="para">H Studio: ${tf.homestudio} | Location ID: ${tf.locationid}</p>
+            <span class="sub-title">${tf.name} <span class="status"> | ${tf.status} </span> </span>
+            <span class="para">Add: ${tf.address}</span>
+            <span class="para">Phone: ${tf.cell}</span>
+            <span class="para">Email: ${tf.email}</span>
+            <span class="para">Inst: ${tf.institution}</span>                         
+            <span class="para">H Studio: ${tf.homestudio} | Location ID: ${tf.locationid}</span>
         </div>
     </div>`    
     }).join('')
