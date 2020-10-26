@@ -312,6 +312,7 @@ tr:nth-child(even) {
   }
 
   .faculty{
+    width: 100%;
    flex-direction: column;
   }
 
