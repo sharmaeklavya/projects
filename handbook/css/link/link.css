@@ -196,11 +196,10 @@ hr {
 }
 
 .disc h2, .disc p{
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: left;
   margin: 0;
-  padding: 0;
-  word-break: break-all;
+  padding: 0;  
 }
 
 .status{
