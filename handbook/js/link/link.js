@@ -4,7 +4,7 @@ import {facultyList} from './flist.js';
 const linkBtns = document.querySelectorAll('.link-item')
 const content = document.querySelectorAll('.content')
 const tfspeech = document.querySelectorAll('.content')[0]
-const table = document.querySelector('.table')
+const facultyData = document.querySelector('.f-container')
 const hamBtn = document.querySelector('.hamburger')
 const links = document.querySelector('.links')
 const pound =  window.location.hash.replace("#","");
@@ -44,29 +44,21 @@ function displayContent (input){
 
 // function to display faculty list
 function displayFaculty(){
-const title = `<tr><th>Sl. No.</th>
-    <th>Name</th>
-    <th>Status</th>
-    <th>Address</th>
-    <th>Institution</th>
-    <th>Computer Name/ Zoom Account</th>
-    <th>Home Studio No</th>
-    <th>Location ID</th>
-    </tr>`
-
-const details = facultyList.map(f => {
-    return `<tr>
-    <th>${f.id}</th>
-      <th>${f.name}</th>
-      <th>${f.status}</th>
-      <th>${f.address} <br />
-      ${f.cell} <br />
-      ${f.email}</th>
-      <th>${f.institution}</th>
-      <th>${f.zoom}</th>
-      <th>${f.homestudio}</th>
-      <th>${f.locationid}</th>
-    </tr>`
+const details = facultyList.map(tf => {
+    return `   
+    <div class="faculty">
+        <div class="img">
+            <img src="images/avatar.jpg" alt="">
+        </div>
+        <div class="disc">
+            <h2 class="sub-title">${tf.name} <span class="status"> | ${tf.status} </span> </h2>
+            <p class="para">${tf.address}</p>
+            <p class="para">Phone: ${tf.cell}</p>
+            <p class="para">Email: ${tf.email}</p>
+            <p class="para">Inst: ${tf.institution}</p>                         
+            <p class="para">H Studio: ${tf.homestudio} | Location ID: ${tf.locationid}</p>
+        </div>
+    </div>`    
     }).join('')
-    table.innerHTML = `${title} ${details}`
+    facultyData.innerHTML = `${details}`
 }
