@@ -52,12 +52,12 @@ const details = facultyList.map(tf => {
             <img src="images/avatar.jpg" alt="">
         </div>
         <div class="disc">
-            <span class="sub-title">${tf.name} <span class="status"> | ${tf.status} </span> </span>
+            <span class="sub-title">${tf.name}<div class="status">${tf.status}</div></span>
             <span class="para">Add: ${tf.address}</span>
-            <span class="para">Phone: ${tf.cell}</span>
-            <span class="para">Email: ${tf.email}</span>
-            <span class="para">Inst: ${tf.institution}</span>                         
-            <span class="para">H Studio: ${tf.homestudio} | Location ID: ${tf.locationid}</span>
+            <span class="para">Phone: ${tf.cell}</span>           
+            <span class="para" style="word-break: break-all">Email: ${tf.email}</span>
+            <span class="para">Inst: ${tf.institution}</span>            
+            <span class="para">H Studio: ${tf.homestudio} | Location ID: ${tf.locationid}</span>             
         </div>
     </div>`    
     }).join('')

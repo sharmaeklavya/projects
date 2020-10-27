@@ -2,7 +2,7 @@ export const facultyList = [
     {
         id: 1,
         name: 'Cemil Kirbas',
-        status : 'Completed 1:1',
+        status : '| Completed 1:1',
         address: '7384 Brandshire Ln Dublin, OH 43017',
         cell: '<a class="data-links" href="tel:+19376261229">(937)-626-1229</a>',
         email: '<a class="data-links" href="mailto:ckirbas1@udayton.edu>">ckirbas1@udayton.edu</a>',
@@ -14,7 +14,7 @@ export const facultyList = [
     {
         id: 2,
         name: 'Ed Mykytka',
-        status : 'Completed 1:1',
+        status : '| Completed 1:1',
         address: '4116 Wagner Rd., Dayton, OH 45440-1427',
         cell: '<a class="data-links" href="tel:+19372722650">(937)-272-2650</a>',
         email: '<a class="data-links" href="mailto:emykytka1@udayton.edu">emykytka1@udayton.edu</a>',
@@ -26,7 +26,7 @@ export const facultyList = [
     {
         id: 3,
         name: 'Sandy Furterer',
-        status : 'Completed 1:1 (twice)',
+        status : '| Completed 1:1 (twice)',
         address: '1668 Lago Mar Dayton, OH 45458',
         cell: '<a class="data-links" href="tel:+19544159720">(954)-415-9720</a>',
         email: '<a class="data-links" href="mailto:sfurterer1@udayton.edu">sfurterer1@udayton.edu</a>',
@@ -62,11 +62,11 @@ export const facultyList = [
     {
         id: 6,
         name: 'Brynmor Thomas',
-        status : 'Completed 1:1',
+        status : '| Completed 1:1',
         address: '112 Timbergate Dr., Lexington, SC 29073',
         cell: '<a class="data-links" href="tel:+12514017730">(251)-401-7730</a>',
         email: '<a class="data-links" href="mailto:brynmor@mailbox.sc.edu">brynmor@mailbox.sc.edu</a>',
-        institution: 'South Carolina Sep 9. <br> Teaching virtual grad Aug 31 as well.',
+        institution: 'South Carolina Sep 9. Virtual grad Aug 31.',
         zoom: 'USCHS04 @shorelight.com',
         homestudio: 22,
         locationid: 239,
@@ -86,7 +86,7 @@ export const facultyList = [
     {
         id: 8,
         name: 'Chansu Yu',
-        status : 'Dropped out',
+        status : '| Dropped out',
         address: '8417 Timber Tr Brecksville, OH 44141',
         cell: '<a class="data-links" href="tel:+14406554619">(440)-655-4619</a>',
         email: '<a class="data-links" href="mailto:c.yu91@csuohio.edu">c.yu91@csuohio.edu</a>',
@@ -134,7 +134,7 @@ export const facultyList = [
     {
         id: 12,
         name: 'Abdullah Oguz',
-        status : 'Completed 1:1',
+        status : '| Completed 1:1',
         address: '1750 Ansel Rd Apt 424 Cleveland OH 44106',
         cell: '<a class="data-links" href="tel:+13368259723">(336)-825-972</a>',
         email: '<a class="data-links" href="mailto:a_oguz@uncg.edu">a_oguz@uncg.edu</a>',
@@ -146,7 +146,7 @@ export const facultyList = [
     {
         id: 13,
         name: 'Hossein Pishro-Nik',
-        status : 'Completed 1:1',
+        status : '| Completed 1:1',
         address: '144 Plumtree Rd Sunderland, MA 01375',
         cell: '<a class="data-links" href="tel:+14136874337">(413)-687-4337</a>',
         email: '<a class="data-links" href="mailto:pishro@engin.umass.edu">pishro@engin.umass.edu</a>',
@@ -158,7 +158,7 @@ export const facultyList = [
     {
         id: 14,
         name: 'Wayne Burleson',
-        status : 'Completed 1:1',
+        status : '| Completed 1:1',
         address: '84 Leonard Rd, Shutesbury, MA 01072',
         cell: '<a class="data-links" href="tel:+14132304250">(413)-230-4250</a>',
         email: '<a class="data-links" href="mailto:burleson@engin.umass.edu">burleson@engin.umass.edu</a>',
@@ -170,7 +170,7 @@ export const facultyList = [
     {
         id: 15,
         name: 'Will Ash',
-        status : 'Completed 1:1',
+        status : '| Completed 1:1',
         address: '306 Moore Ave St Charles, IL 60174',
         cell: '<a class="data-links" href="tel:+16303098211">(630)-309-8211</a>',
         email: '<a class="data-links" href="mailto:wash@uic.edu">wash@uic.edu</a>',
@@ -182,7 +182,7 @@ export const facultyList = [
     {
         id: 16,
         name: 'Tabes Bridges',
-        status : 'Completed 1:1',
+        status : '| Completed 1:1',
         address: '2630 W. Berwyn Ave., #512 Chicago, IL 60625',
         cell: '<a class="data-links" href="tel:+13477037862">(347)-703-7862</a>',
         email: '<a class="data-links" href="mailto:mbridg5@uic.edu">mbridg5@uic.edu</a>',
@@ -206,7 +206,7 @@ export const facultyList = [
     {
         id: 18,
         name: 'Jeffrey Schurke',
-        status : 'Completed 1:1',
+        status : '| Completed 1:1',
         address: '7010 N Ashland Blvd., Apt. 104 Chicago, IL 60626',
         cell: '<a class="data-links" href="tel:+18477215898">(847)-721-5898</a>',
         email: '<a class="data-links" href="mailto:jschuh2@uic.edu">jschuh2@uic.edu</a>',
@@ -230,8 +230,8 @@ export const facultyList = [
     {
         id: 20,
         name: 'Amanda Bohne',
-        status : 'Completed 1:1',
-        address: '2043 South Bend Ave, #373 South Bend, IN 46637-5686',
+        status : '| Completed 1:1',
+        address: '2043 South Bend Ave, #373 South Bend, IN 46637',
         cell: '<a class="data-links" href="tel:+16183634532">(618)-363-4532</a>',
         email: '<a class="data-links" href="mailto:abohne@uic.edu">abohne@uic.edu</a>',
         institution: 'UIC-LIVE Aug 24',
@@ -242,7 +242,7 @@ export const facultyList = [
     {
         id: 21,
         name: 'Ryan Croken',
-        status : 'Completed 1:1',
+        status : '| Completed 1:1',
         address: '1146 W. Columbia Ave., #3E Chicago, IL 60626',
         cell: '<a class="data-links" href="tel:+12243073585">(224)-307-3585</a>',
         email: '<a class="data-links" href="mailto:rcroke2@uic.edu">rcroke2@uic.edu</a>',
@@ -254,7 +254,7 @@ export const facultyList = [
     {
         id: 22,
         name: 'Rebecca Bonarek',
-        status : 'Completed 1:1',
+        status : '| Completed 1:1',
         address: '924 N. Honore St., Apt 2 Chicago, IL 60622',
         cell: '<a class="data-links" href="tel:+16302121718">(630)-212-1718</a>',
         email: '<a class="data-links" href="mailto:rbonar2@uic.edu">rbonar2@uic.edu</a>',
@@ -266,7 +266,7 @@ export const facultyList = [
     {
         id: 23,
         name: 'Jenna Buendia',
-        status : 'Completed 1:1',
+        status : '| Completed 1:1',
         address: '3329 S. Giles Ave. Chicago, IL 60616',
         cell: '<a class="data-links" href="tel:+13124152418">(312)-415-2418</a>',
         email: '<a class="data-links" href="mailto:jbuend2@uic.edu">jbuend2@uic.edu</a>',
@@ -278,7 +278,7 @@ export const facultyList = [
     {
         id: 24,
         name: 'Lin Zhu (Julie)',
-        status : 'Completed 1:1',
+        status : '| Completed 1:1',
         address: '21 Hingston Cir. Braintree, MA 02184',
         cell: '<a class="data-links" href="tel:+14698792949">(469)-879-2949</a>',
         email: '<a class="data-links" href="mailto:lin.Zhu@umb.edu">lin.Zhu@umb.edu</a>',
@@ -302,7 +302,7 @@ export const facultyList = [
     {
         id: 26,
         name: 'Rachel Quill',
-        status : 'Completed 1:1',
+        status : '| Completed 1:1',
         address: '3147 Sheffield Avenue Oakland, CA 94602',
         cell: '<a class="data-links" href="tel:+15103815854">(510)-381-5854</a>',
         email: '<a class="data-links" href="mailto:rachel.quill@shorelight.com">rachel.quill@shorelight.com</a>',
@@ -314,7 +314,7 @@ export const facultyList = [
     {
         id: 27,
         name: 'Jason Rickey',
-        status : 'Completed 1:1',
+        status : '| Completed 1:1',
         address: '106 Caladium Dr. Columbia, SC 29212',
         cell: '<a class="data-links" href="tel:+19376384741">(937)-638-4741</a>',
         email: '<a class="data-links" href="mailto:jason.rickey@shorelight.com">jason.rickey@shorelight.com</a>',
@@ -326,7 +326,7 @@ export const facultyList = [
     {
         id: 28,
         name: 'Scott Helfgott',
-        status : 'Completed 1:1',
+        status : '| Completed 1:1',
         address: '1300 Brickell Bay Drive, Apt. 2107 Miami, Fl 33131',
         cell: '<a class="data-links" href="tel:+16466443047">(646)-644-3047</a>',
         email: '<a class="data-links" href="mailto:scott@shorelight.com">scott@shorelight.com</a>',
@@ -350,7 +350,7 @@ export const facultyList = [
     {
         id: 30,
         name: 'Alex Kucera',
-        status : 'Completed 1:1',
+        status : '| Completed 1:1',
         address: '434 W Diversey Pkwy, apt 3C Chicago, IL 60614',
         cell: '<a class="data-links" href="tel:+17165484284">(716)-548-4284</a>',
         email: '<a class="data-links" href="mailto:alexkuc22@gmail.com">alexkuc22@gmail.com</a>',
@@ -362,7 +362,7 @@ export const facultyList = [
     {
         id: 31,
         name: 'Brooke Schifano',
-        status : 'Completed 1:1',
+        status : '| Completed 1:1',
         address: '831 Cleveland St, #284 Greenville, SC, 29601',
         cell: '<a class="data-links" href="tel:+14155257687">(415)-525-7687</a>',
         email: '<a class="data-links" href="mailto:brooke.schifano001@umb.edu">brooke.schifano001@umb.edu</a>',
@@ -370,5 +370,18 @@ export const facultyList = [
         zoom: 'UMBHS07 @shorelight.com',
         homestudio: 55,
         locationid: 301,
+    },
+
+    {
+        id: 32,
+        name: 'Randall Colaizzi',
+        status : '',
+        address: '8 Grant Street Unit 15 Natick, MA 01760',
+        cell: '<a class="data-links" href="tel:+15082591202">(508)-259-1202</a>',
+        email: '<a class="data-links" href="mailto:randall.colaizzi@umb.edu">randall.colaizzi@umb.edu</a>',
+        institution: 'UMB ACLive',
+        zoom: 'UMBHS06 @shorelight.com',
+        homestudio: 53,
+        locationid: 316,
     },
 ]
