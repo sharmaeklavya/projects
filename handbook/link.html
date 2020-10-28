@@ -105,7 +105,7 @@
                 <!-- Home Studio Section  -->
                 <article class="content" id="studio">
                     <h1 class="title">Procedures to set up Home Studio</h1>
-                    <p class="para">Home Studio is the screen where instructors are able to see students who have joined the live lecture. The students will always show up in the same spot. When instructors use lecture model on UCOMMONS, the screen they see will mimic HomeStudio. When they click on a student on through UCommons, the student's video will be full screen on the HomeStudio screen as well.</p>
+                    <p class="para">Home Studio is the screen where instructors are able to see students who have joined the live lecture. The students will always show up in the same spot. When instructors use lecture model on UCOMMONS, the screen they see will mimic Home Studio. When they click on a student on through UCommons, the student's video will be full screen on the Home Studio screen as well.</p>
                     <p class="para"><strong>Procedures:</strong></p>
                     <ul class="bullets">
                         <li class="bullet-item"><strong>Step 1: </strong>Login LogMeIn and director.shorelight.com. Director will show which HomeStudios are to be used today.</li>
@@ -117,8 +117,8 @@
                         </li>
                         <li class="bullet-item"><strong>Step 4: </strong>Go to start => settings => system => sound => manage sound devices. Make sure that all of these are disabled. (e.g. speaker, microphone)</li>
                         <li class="bullet-item"><strong>Step 5: </strong>Go back to Director and start the Home Studio 60 to 90 minutes before the lecture. (you can ignore the error for sound and microphone disabled)</li>
-                        <li class="bullet-item"><strong>Step 6: </strong>Unless swamped by other calls, pop-back in on lessons to see if the students have populated the HomeStudio screen, thus confirming accurate launch.</li>
-                        <li class="bullet-item"><strong>Step 7: </strong>When the class is about to finish, go to LogMeIn to check if the meeting is finished. If it has, end the HomeStudio on Director, click disconnect on LogMeIn and close the remote control window.</li>
+                        <li class="bullet-item"><strong>Step 6: </strong>Unless swamped by other calls, pop-back in on lessons to see if the students have populated the Home Studio screen, thus confirming accurate launch.</li>
+                        <li class="bullet-item"><strong>Step 7: </strong>When the class is about to finish, go to LogMeIn to check if the meeting is finished. If it has, end the Home Studio on Director, click disconnect on LogMeIn and close the remote control window.</li>
                     </ul>
                     <h2 class="sub-title">Important Notes:</h2>
                     <p class="para">If the Home Studio is turned off but the lecture is starting soon, find the course and contact information of the professor. Text message "Hi This is xxx from shorelight. We are going to launch your Home Studio for your courses shortly. I can see that your system is not turned on. Could you please turn on your system and connect to the internet at least 30 mins before the class so that we can get in and make sure everything is ready. Thank you and have a nice day."</p>
@@ -182,7 +182,7 @@
                     <ul class="bullets">
                         <li class="bullet-item">Example: Instructor cannot find handout. HANDOFF @victoria rath (on-live lecture Canvas/UCommons issue)</li>
                         <li class="bullet-item">Example: Home Studio keeps crashing. HANDOFF @roman.burdakov (engineering, software issue)</li>
-                        <li class="bullet-item">Example: HomeStudio won’t power on. HANDOFF @jeremy.busey (hardware issue)</li>
+                        <li class="bullet-item">Example: Home Studio won’t power on. HANDOFF @jeremy.busey (hardware issue)</li>
                     </ul>
             </article>
 
@@ -196,8 +196,14 @@
                         id="search"
                         placeholder="Type to begin..." 
                       />
-                      <!-- search bar ends here -->
-  
+                      <select name="choice" id="choice" aria-label="category">
+                        <option class="choice-btn" value="all" selected>All</option>
+                        <option class="choice-btn" value="name">Name</option>
+                        <option class="choice-btn" value="homestudio" >Home Studio</option>
+                        <option class="choice-btn" value="phone" >Phone</option>
+                        <option class="choice-btn" value="email">Email</option>
+                      </select>
+                      <!-- search bar ends here -->        
                     </form>
                     <div class="f-container">
                 </div>

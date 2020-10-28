@@ -1,4 +1,4 @@
-export const facultyList = [
+export const facultyLDetails = [
     {
         id: 1,
         name: 'Cemil Kirbas',
@@ -188,7 +188,7 @@ export const facultyList = [
         email: '<a class="data-links" href="mailto:mbridg5@uic.edu">mbridg5@uic.edu</a>',
         institution: 'UIC-LIVE Aug 24',
         zoom: 'UICHS09 @shorelight.com',
-        homestudio: 34,
+        homestudio: 38,
         locationid: 247,
     },
     {
@@ -606,9 +606,9 @@ export const facultyList = [
         address: `111 East Ave, Apt 331 Rochester, NY, 14604`,
         cell: '<a class="data-links" href="tel:+15857559106">(585)-755-9106</a>',
         email: '<a class="data-links" href="mailto:qzhu10@ur.rochester.edu">qzhu10@ur.rochester.edu</a>',
-        institution: ``,
+        institution: `Math 115`,
         zoom: ``,
-        homestudio: 69,
+        homestudio: 34,
         locationid: ``,
     },
     {
@@ -692,7 +692,7 @@ export const facultyList = [
         email: '<a class="data-links" href="mailto:"></a>',
         institution: `UMB ACL PoliSci 220`,
         zoom: ``,
-        homestudio: 67,
+        homestudio: ``,
         locationid: ``,
     },
     {

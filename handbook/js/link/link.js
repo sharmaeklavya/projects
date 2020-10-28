@@ -1,4 +1,6 @@
-import {facultyList} from './flist.js';
+import {facultyLDetails} from './flist.js';
+
+const facultyList = facultyLDetails.sort((a,b) => a.homestudio < b.homestudio ? 1 : -1)  
 
 // class selectors - buttons
 const linkBtns = document.querySelectorAll('.link-item')
@@ -9,7 +11,7 @@ const hamBtn = document.querySelector('.hamburger')
 const links = document.querySelector('.links')
 const pound =  window.location.hash.replace("#","");
 const form = document.querySelector(".search-form");
-const search = document.getElementById('search')
+const choice = document.getElementById('choice')
 
 // function default content as page loads
 const home = () => tfspeech.classList.add('show-item');
@@ -69,14 +71,32 @@ const details = facultyList.map(tf => {
 
 form.addEventListener('input', (e) => {
     e.preventDefault();
-    const searchValue = e.target.value.toLowerCase()  
+    const searchValue = e.target.value.toLowerCase()
+    const choiceValue = choice.value
     const filterValue = facultyList.filter(fl => {
         if (searchValue){
-        const value = [fl.name, fl.address, fl.cell, fl.email, fl.institution, fl.homestudio, fl.locationid].toString().toLowerCase()
-            return value.includes(searchValue)
+            if (choiceValue == 'all'){
+                const value = [fl.name, fl.address, fl.cell, fl.email, fl.institution, fl.homestudio, fl.locationid].toString().toLowerCase()
+                return value.includes(searchValue)
+            }
+            else if (choiceValue == 'name'){
+                const value = [fl.name].toString().toLowerCase()
+                return value.includes(searchValue)
+            }
+            else if (choiceValue === 'homestudio'){
+                const value = [fl.homestudio].toString().toLowerCase()
+                return value.includes(searchValue)
+            }
+            else if (choiceValue === 'phone'){
+                const value = [fl.cell].toString().toLowerCase()
+                return value.includes(searchValue)
+            } else if (choiceValue === 'email'){
+                const value = [fl.email].toString().toLowerCase()
+                return value.includes(searchValue)
+            }        
         }
     })
-   if (searchValue){
+   if (searchValue){    
        const display = filterValue.map(tf => {
            return `  <div class="faculty">
            <div class="img">
@@ -90,13 +110,12 @@ form.addEventListener('input', (e) => {
                <span class="para">Inst: ${tf.institution}</span>            
                <span class="para">H Studio: ${tf.homestudio} | Location ID: ${tf.locationid}</span>             
            </div>
-       </div>`    
+       </div>`
        }).join('')
+
        facultyData.innerHTML = display
+
    } else{
     displayFaculty()
    }
 })
-
-
-
