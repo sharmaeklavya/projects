@@ -222,8 +222,7 @@ hr {
 }
 
 .faculty{
-  display: flex;
-  align-items: center;  
+  display: flex;  
 }
 
 .faculty:nth-child(even){    

@@ -9,6 +9,7 @@ const hamBtn = document.querySelector('.hamburger')
 const links = document.querySelector('.links')
 const pound =  window.location.hash.replace("#","");
 const form = document.querySelector(".search-form");
+const search = document.getElementById('search')
 
 // function default content as page loads
 const home = () => tfspeech.classList.add('show-item');
@@ -63,3 +64,39 @@ const details = facultyList.map(tf => {
     }).join('')
     facultyData.innerHTML = `${details}`
 }
+
+
+
+form.addEventListener('input', (e) => {
+    e.preventDefault();
+    const searchValue = e.target.value.toLowerCase()  
+    const filterValue = facultyList.filter(fl => {
+        if (searchValue){
+        const value = [fl.name, fl.address, fl.cell, fl.email, fl.institution, fl.homestudio, fl.locationid].toString().toLowerCase()
+            return value.includes(searchValue)
+        }
+    })
+   if (searchValue){
+       const display = filterValue.map(tf => {
+           return `  <div class="faculty">
+           <div class="img">
+               <img src="images/avatar.jpg" alt="">
+           </div>
+           <div class="disc">
+               <span class="sub-title">${tf.name}<div class="status">${tf.status}</div></span>
+               <span class="para">Add: ${tf.address}</span>
+               <span class="para">Phone: ${tf.cell}</span>           
+               <span class="para" style="word-break: break-all">Email: ${tf.email}</span>
+               <span class="para">Inst: ${tf.institution}</span>            
+               <span class="para">H Studio: ${tf.homestudio} | Location ID: ${tf.locationid}</span>             
+           </div>
+       </div>`    
+       }).join('')
+       facultyData.innerHTML = display
+   } else{
+    displayFaculty()
+   }
+})
+
+
+
