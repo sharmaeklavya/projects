@@ -73,29 +73,7 @@ form.addEventListener('input', (e) => {
     e.preventDefault();
     const searchValue = e.target.value.toLowerCase()
     const choiceValue = choice.value
-    const filterValue = facultyList.filter(fl => {
-        if (searchValue){
-            if (choiceValue == 'all'){
-                const value = [fl.name, fl.address, fl.cell, fl.email, fl.institution, fl.homestudio, fl.locationid].toString().toLowerCase()
-                return value.includes(searchValue)
-            }
-            else if (choiceValue == 'name'){
-                const value = [fl.name].toString().toLowerCase()
-                return value.includes(searchValue)
-            }
-            else if (choiceValue === 'homestudio'){
-                const value = [fl.homestudio].toString().toLowerCase()
-                return value.includes(searchValue)
-            }
-            else if (choiceValue === 'phone'){
-                const value = [fl.cell].toString().toLowerCase()
-                return value.includes(searchValue)
-            } else if (choiceValue === 'email'){
-                const value = [fl.email].toString().toLowerCase()
-                return value.includes(searchValue)
-            }        
-        }
-    })
+   
    if (searchValue){    
        const display = filterValue.map(tf => {
            return `  <div class="faculty">
@@ -118,4 +96,28 @@ form.addEventListener('input', (e) => {
    } else{
     displayFaculty()
    }
+
+   const filterValue = facultyList.filter(fl => {
+    if (searchValue){
+        if (choiceValue == 'all'){
+            const value = [fl.name, fl.address, fl.cell, fl.email, fl.institution, fl.homestudio, fl.locationid].toString().toLowerCase()
+            return value.includes(searchValue)
+        }
+        else if (choiceValue == 'name'){
+            const value = [fl.name].toString().toLowerCase()
+            return value.includes(searchValue)
+        }
+        else if (choiceValue === 'homestudio'){
+            const value = [fl.homestudio].toString().toLowerCase()
+            return value.includes(searchValue)
+        }
+        else if (choiceValue === 'phone'){
+            const value = [fl.cell].toString().toLowerCase()
+            return value.includes(searchValue)
+        } else if (choiceValue === 'email'){
+            const value = [fl.email].toString().toLowerCase()
+            return value.includes(searchValue)
+        }        
+    }
+})
 })
