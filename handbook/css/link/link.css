@@ -101,7 +101,7 @@ body {
 
 .content-box {
   width: 90%;
-  margin: 2rem 1rem 1rem;
+  margin: 2rem 1rem;
   padding: 2rem 4rem;
   justify-self: center;
   letter-spacing: 1px;
@@ -205,7 +205,7 @@ hr {
   padding: 1rem;
   outline: none;
   border: none;
-  font-size: 1rem;
+  font-size: .95rem;
   font-weight: 400;
   background: none;
   border-radius: 5px;
@@ -213,14 +213,14 @@ hr {
 
 #choice{
   width: 10%;  
-  padding: 0.5rem;
+  padding: 0.5rem; 
   border: none;
   outline: none;
   background-color: var(--white-color);
   float: right;
   position: absolute;
-  top: 12%;
-  right: 5%;  
+  top: 6.5rem;
+  right: 2.5rem;  
 }
 
 #choice:focus {
@@ -350,9 +350,7 @@ hr {
   }
   
   #choice{
-    width: 20%;
-    font-size: .75rem;
-    font-weight: 300;    
+    width: 20%;   
   }
 
   .faculty{
