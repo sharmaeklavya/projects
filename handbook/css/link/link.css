@@ -340,8 +340,12 @@ hr {
   }
 
   .content-box {
-    margin: 0.5rem 1rem;
+    margin: 1rem;
     padding: 1rem;
+  }
+
+  .search-form {    
+    margin: 1rem auto;    
   }
 
   #search {
