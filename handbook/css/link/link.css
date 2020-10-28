@@ -171,6 +171,10 @@ hr {
 }
 
 /* selecting by IDs */
+#faculty{
+  position: relative;
+}
+
 #guide h2 {
   font-size: 1.1rem;
   font-weight: 700;
@@ -186,7 +190,7 @@ hr {
 /* for faculty contact table  */
 
 .search-form {
-  width: 90%;
+  width: 95%;
   margin: 2rem auto;
   padding: 0.5rem;
   border-radius: 5px;  
@@ -197,6 +201,7 @@ hr {
 
 #search {
   width: 80%;
+  margin: 0.5rem;
   padding: 1rem;
   outline: none;
   border: none;
@@ -207,11 +212,24 @@ hr {
 }
 
 #choice{
-  width: 15%;
+  width: 10%;  
   padding: 0.5rem;
   border: none;
   outline: none;
   background-color: var(--white-color);
+  float: right;
+  position: absolute;
+  top: 12%;
+  right: 5%;  
+}
+
+#choice:focus {
+	border-color: var(--border-color);
+	box-shadow: 0 0 1px 1.5px var(--primary-text);
+	box-shadow: 0 0 0 1.5px -moz-mac-focusring;
+	color: #222;
+  outline: none;
+  border-radius: 5px;
 }
 
 .f-container{    
@@ -327,7 +345,7 @@ hr {
   }
 
   #search {
-    width: 75%;
+    width: 70%;
     font-size: .9rem;
   }
   
@@ -340,12 +358,15 @@ hr {
   .faculty{
     flex-direction: column;
   }
+
   .img{
-    width: 15%;
+    width: 20%;
   }
+
   .disc span{
     width: 98%;
   }
+
   .status{
     display: inline;
   }  
