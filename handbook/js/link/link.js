@@ -18,24 +18,14 @@ const home = () => tfspeech.classList.add('show-item');
 displayFaculty(facultyList)
 displayContent(pound)
 
-// Event Listner for navigating link tabs
-linkBtns.forEach(btn => {
-    btn.addEventListener('click', (e) => {
-        const btnTarget = e.target.dataset.id
-        displayContent(btnTarget)
-    })
-})
 
-// Event Listner for navigating toggle on mobile device
-hamBtn.addEventListener('click', () => {    
-    links.classList.toggle('show-grid') 
-})
+
 
 // function to display relevant content on clicking tabs
 function displayContent (input){   
-    content.forEach(c => {        
-        if (input === 'home' || input === ''){
-            home()
+    content.forEach(c => {      
+        if (input === 'home'){
+            console.log(pound)
         }
         else if(c.id === input){
             c.classList.add('show-item')
@@ -66,6 +56,19 @@ const details = faculty.map(tf => {
     }).join('')
     facultyData.innerHTML = `${details}`
 }
+
+// Event Listner for navigating link tabs
+linkBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+        const btnTarget = e.target.dataset.id
+        displayContent(btnTarget)
+    })
+})
+
+// Event Listner for navigating toggle on mobile device
+hamBtn.addEventListener('click', () => {    
+    links.classList.toggle('show-grid') 
+})
 
 // form event listener for search
 form.addEventListener('input', (e) => {

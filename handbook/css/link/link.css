@@ -45,7 +45,6 @@ body {
 /* page navigation links  */
 
 .related-links {
-  width: 100%;
   padding: 1rem;
   justify-self: center;
 }
@@ -366,6 +365,8 @@ hr {
 
   .img{
     width: 18%;
+    margin-left: 0.5rem; 
+    padding-left: 0.5rem;
   }
 
   .disc span{

@@ -355,18 +355,20 @@ body {
     left: 0;
     display: none;
     z-index: 2;
-    background-color: var(--primary-text);
+    background-color: var(--primary-text);    
+  }
+
+  .link-item {
+    width: 70%;
+    margin: 0;
+    padding: 1rem 0.5rem;
+    list-style-type: none;
+    font-size: 0.95rem;
   }
 
   .link-item:hover {
     color: var(--white-color);
     background-color: var(--secondary-text);
-  }
-
-  .link-item {
-    margin: 0;
-    padding: 1rem 0.5rem;
-    list-style-type: none;
   }
 
   .search-section {
