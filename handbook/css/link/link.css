@@ -331,8 +331,9 @@ hr {
   }
 
   .link-item {
-    margin: 0 0.5rem;
-    padding: 0.5rem;    
+    margin: 0.5rem auto;
+    padding: 0.5rem; 
+    font-size: 0.95rem;   
   }
 
   .content-box {
