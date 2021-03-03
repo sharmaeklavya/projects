@@ -22,7 +22,7 @@
 
 
 - [Web Project - Food Menu](https://sharmaeklavya.github.io/projects/foodmenu/)
-- [Web Project - Tip Calculator](https://sharmaeklavya.github.io/projects/todolist/)
+- [Web Project - To-Do List](https://sharmaeklavya.github.io/projects/todolist/)
 - [Web Project - Pricing](https://sharmaeklavya.github.io/projects/pricing/)
 - [Web Project - FAQs](https://sharmaeklavya.github.io/projects/questions/)
 - [Web Project - Social Media Dashboard](https://sharmaeklavya.github.io/projects/socialmedia/)
