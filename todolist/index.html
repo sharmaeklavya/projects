@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>To-Do-List</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>To-Do-List</h1>
+    </div>
+    <form>
+      <input type="text" id="inputarea" name="inputarea">
+      <button type="submit" class="submit"><i class="fas fa-plus-square"></i></button>
+      <select name="selecttype" id="selecttype">
+        <option value="all" class="select">All</option>
+        <option value="incomplete" class="select">Incomplete</option>
+        <option value="completed" class="select">Completed</option>
+      </select>
+    </form>
+    <div class="list">
+      
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
