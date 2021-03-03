@@ -10,6 +10,7 @@ body {
   font-size: 16px;
   font-family: "Arial Narrow Bold", sans-serif;
   background-color: #ebf8ff;
+  -webkit-text-size-adjust: 100%;
 }
 
 .container{
